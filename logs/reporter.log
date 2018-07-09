@@ -1,0 +1,2178 @@
+2018-07-09T16:22:40.633Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:22:40.634Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:22:40.638Z - info: Extensions location cache doesn't contain entry yet, crawling
+2018-07-09T16:22:41.127Z - info: Found 31 extensions
+2018-07-09T16:22:41.544Z - info: Using extension handlebars
+2018-07-09T16:22:41.548Z - info: Using extension import-export
+2018-07-09T16:22:42.039Z - info: Using extension templates
+2018-07-09T16:22:42.042Z - info: Using extension jsrender
+2018-07-09T16:22:42.042Z - info: Using extension freeze
+2018-07-09T16:22:42.043Z - info: Using extension cli
+2018-07-09T16:22:42.044Z - info: Using extension express
+2018-07-09T16:22:42.266Z - info: Using extension debug
+2018-07-09T16:22:42.267Z - info: Using extension tags
+2018-07-09T16:22:42.270Z - info: Using extension data
+2018-07-09T16:22:42.272Z - info: Using extension fs-store
+2018-07-09T16:22:43.068Z - info: Using extension authorization
+2018-07-09T16:22:43.069Z - info: Using extension html-to-xlsx
+2018-07-09T16:22:43.428Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:22:43.428Z - info: Using extension child-templates
+2018-07-09T16:22:43.429Z - info: Using extension browser-client
+2018-07-09T16:22:43.431Z - info: Using extension chrome-pdf
+2018-07-09T16:22:43.434Z - info: Using extension pdf-utils
+2018-07-09T16:22:43.578Z - info: Using extension version-control
+2018-07-09T16:22:43.653Z - info: Using extension reports
+2018-07-09T16:22:43.655Z - info: Using extension text
+2018-07-09T16:22:43.655Z - info: Using extension base
+2018-07-09T16:22:43.656Z - info: Using extension studio
+2018-07-09T16:22:43.736Z - info: Using extension licensing
+2018-07-09T16:22:43.771Z - info: Using extension scripts
+2018-07-09T16:22:43.774Z - info: Using extension assets
+2018-07-09T16:22:43.820Z - info: Using extension scheduling
+2018-07-09T16:22:43.869Z - info: Using extension xlsx
+2018-07-09T16:22:43.892Z - info: Using extension sample-template
+2018-07-09T16:22:43.894Z - info: Using extension resources
+2018-07-09T16:22:43.895Z - info: Using extension public-templates
+2018-07-09T16:22:43.900Z - info: fs store is persisting using fs
+2018-07-09T16:22:43.900Z - info: fs store is synchronizing using fs
+2018-07-09T16:22:43.930Z - info: fs store is loading data
+2018-07-09T16:22:43.955Z - info: fs store is initialized successfully
+2018-07-09T16:22:43.968Z - info: Creating default express app.
+2018-07-09T16:22:44.009Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:22:44.009Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:22:44.022Z - info: Verifying license key free
+2018-07-09T16:22:44.023Z - info: Using free license
+2018-07-09T16:22:44.024Z - info: reporter initialized
+2018-07-09T16:22:44.032Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:22:44.033Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: jsrender }
+2018-07-09T16:22:44.045Z - warn: Error when processing render request Unable to find or read file /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/logo.png. ENOENT: no such file or directory, open '/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/logo.png' Error: Unable to find or read file /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/logo.png. ENOENT: no such file or directory, open '/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/logo.png'
+    at module.exports (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-core/lib/util/createError.js:9:13)
+    at Reporter.createError (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-core/lib/reporter.js:258:12)
+    at readFile (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-assets/lib/assets.js:110:20)
+    at <anonymous>
+caused by: Error: ENOENT: no such file or directory, open '/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/logo.png'
+2018-07-09T16:23:19.633Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:23:19.634Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:23:19.639Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:23:19.643Z - info: Found 31 extensions
+2018-07-09T16:23:19.900Z - info: Using extension handlebars
+2018-07-09T16:23:19.903Z - info: Using extension import-export
+2018-07-09T16:23:20.031Z - info: Using extension templates
+2018-07-09T16:23:20.034Z - info: Using extension jsrender
+2018-07-09T16:23:20.034Z - info: Using extension freeze
+2018-07-09T16:23:20.035Z - info: Using extension cli
+2018-07-09T16:23:20.036Z - info: Using extension express
+2018-07-09T16:23:20.139Z - info: Using extension debug
+2018-07-09T16:23:20.141Z - info: Using extension tags
+2018-07-09T16:23:20.143Z - info: Using extension data
+2018-07-09T16:23:20.144Z - info: Using extension fs-store
+2018-07-09T16:23:20.342Z - info: Using extension authorization
+2018-07-09T16:23:20.344Z - info: Using extension html-to-xlsx
+2018-07-09T16:23:20.440Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:23:20.440Z - info: Using extension child-templates
+2018-07-09T16:23:20.443Z - info: Using extension browser-client
+2018-07-09T16:23:20.444Z - info: Using extension chrome-pdf
+2018-07-09T16:23:20.448Z - info: Using extension pdf-utils
+2018-07-09T16:23:20.544Z - info: Using extension version-control
+2018-07-09T16:23:20.562Z - info: Using extension reports
+2018-07-09T16:23:20.563Z - info: Using extension text
+2018-07-09T16:23:20.564Z - info: Using extension base
+2018-07-09T16:23:20.565Z - info: Using extension studio
+2018-07-09T16:23:20.595Z - info: Using extension licensing
+2018-07-09T16:23:20.608Z - info: Using extension scripts
+2018-07-09T16:23:20.611Z - info: Using extension assets
+2018-07-09T16:23:20.617Z - info: Using extension scheduling
+2018-07-09T16:23:20.644Z - info: Using extension xlsx
+2018-07-09T16:23:20.663Z - info: Using extension sample-template
+2018-07-09T16:23:20.665Z - info: Using extension resources
+2018-07-09T16:23:20.666Z - info: Using extension public-templates
+2018-07-09T16:23:20.670Z - info: fs store is persisting using fs
+2018-07-09T16:23:20.670Z - info: fs store is synchronizing using fs
+2018-07-09T16:23:20.672Z - info: fs store is loading data
+2018-07-09T16:23:20.698Z - info: fs store is initialized successfully
+2018-07-09T16:23:20.715Z - info: Creating default express app.
+2018-07-09T16:23:20.726Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:23:20.726Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:23:20.739Z - info: Verifying license key free
+2018-07-09T16:23:20.740Z - info: Using free license
+2018-07-09T16:23:20.741Z - info: reporter initialized
+2018-07-09T16:23:20.747Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:23:20.748Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: jsrender }
+2018-07-09T16:23:20.933Z - warn: Error when processing render request Error while executing templating engine. Syntax error
+Unmatched or missing {{/col1}}, in template:
+<html>
+  <head><base href=\'file:////Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/local-assets\' />
+    <style>
+      table, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <img src=\'data:image/png;base64,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\'/>
+    <table>
+      {{#each rows}}
+      <tr>
+        <td>
+          Hello {{col1}}
+        </td>
+      </tr>
+      {{/each}
+    </table>
+  </body>
+</html>
+ Error
+    at /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsrender/jsrender-node.js:215:27
+    at Object.<anonymous> (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsrender/jsrender-node.js:2452:2)
+    at Object.<anonymous> (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsrender/jsrender-node.js:2454:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+2018-07-09T16:23:59.699Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:23:59.700Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:23:59.706Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:23:59.709Z - info: Found 31 extensions
+2018-07-09T16:23:59.970Z - info: Using extension handlebars
+2018-07-09T16:23:59.973Z - info: Using extension import-export
+2018-07-09T16:24:00.105Z - info: Using extension templates
+2018-07-09T16:24:00.107Z - info: Using extension jsrender
+2018-07-09T16:24:00.108Z - info: Using extension freeze
+2018-07-09T16:24:00.109Z - info: Using extension cli
+2018-07-09T16:24:00.109Z - info: Using extension express
+2018-07-09T16:24:00.214Z - info: Using extension debug
+2018-07-09T16:24:00.215Z - info: Using extension tags
+2018-07-09T16:24:00.218Z - info: Using extension data
+2018-07-09T16:24:00.219Z - info: Using extension fs-store
+2018-07-09T16:24:00.416Z - info: Using extension authorization
+2018-07-09T16:24:00.417Z - info: Using extension html-to-xlsx
+2018-07-09T16:24:00.517Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:24:00.517Z - info: Using extension child-templates
+2018-07-09T16:24:00.519Z - info: Using extension browser-client
+2018-07-09T16:24:00.520Z - info: Using extension chrome-pdf
+2018-07-09T16:24:00.523Z - info: Using extension pdf-utils
+2018-07-09T16:24:00.617Z - info: Using extension version-control
+2018-07-09T16:24:00.635Z - info: Using extension reports
+2018-07-09T16:24:00.637Z - info: Using extension text
+2018-07-09T16:24:00.637Z - info: Using extension base
+2018-07-09T16:24:00.638Z - info: Using extension studio
+2018-07-09T16:24:00.668Z - info: Using extension licensing
+2018-07-09T16:24:00.682Z - info: Using extension scripts
+2018-07-09T16:24:00.685Z - info: Using extension assets
+2018-07-09T16:24:00.690Z - info: Using extension scheduling
+2018-07-09T16:24:00.718Z - info: Using extension xlsx
+2018-07-09T16:24:00.736Z - info: Using extension sample-template
+2018-07-09T16:24:00.737Z - info: Using extension resources
+2018-07-09T16:24:00.738Z - info: Using extension public-templates
+2018-07-09T16:24:00.742Z - info: fs store is persisting using fs
+2018-07-09T16:24:00.743Z - info: fs store is synchronizing using fs
+2018-07-09T16:24:00.745Z - info: fs store is loading data
+2018-07-09T16:24:00.774Z - info: fs store is initialized successfully
+2018-07-09T16:24:00.792Z - info: Creating default express app.
+2018-07-09T16:24:00.803Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:24:00.804Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:24:00.815Z - info: Verifying license key free
+2018-07-09T16:24:00.816Z - info: Using free license
+2018-07-09T16:24:00.817Z - info: reporter initialized
+2018-07-09T16:24:00.823Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:24:00.824Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: jsrender }
+2018-07-09T16:24:00.928Z - warn: Error when processing render request Error while executing templating engine. Syntax error
+Unmatched or missing {{/col1}}, in template:
+<html>
+  <head>
+    <style>
+      table, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <img src=\'data:image/png;base64,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\'/>
+    <table>
+      {{#each rows}}
+      <tr>
+        <td>
+          Hello {{col1}}
+        </td>
+      </tr>
+      {{/each}
+    </table>
+  </body>
+</html>
+ Error
+    at /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsrender/jsrender-node.js:215:27
+    at Object.<anonymous> (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsrender/jsrender-node.js:2452:2)
+    at Object.<anonymous> (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsrender/jsrender-node.js:2454:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+2018-07-09T16:24:16.361Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:24:16.362Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:24:16.367Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:24:16.370Z - info: Found 31 extensions
+2018-07-09T16:24:16.629Z - info: Using extension handlebars
+2018-07-09T16:24:16.632Z - info: Using extension import-export
+2018-07-09T16:24:16.759Z - info: Using extension templates
+2018-07-09T16:24:16.761Z - info: Using extension jsrender
+2018-07-09T16:24:16.762Z - info: Using extension freeze
+2018-07-09T16:24:16.763Z - info: Using extension cli
+2018-07-09T16:24:16.764Z - info: Using extension express
+2018-07-09T16:24:16.867Z - info: Using extension debug
+2018-07-09T16:24:16.869Z - info: Using extension tags
+2018-07-09T16:24:16.871Z - info: Using extension data
+2018-07-09T16:24:16.872Z - info: Using extension fs-store
+2018-07-09T16:24:17.072Z - info: Using extension authorization
+2018-07-09T16:24:17.074Z - info: Using extension html-to-xlsx
+2018-07-09T16:24:17.172Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:24:17.172Z - info: Using extension child-templates
+2018-07-09T16:24:17.174Z - info: Using extension browser-client
+2018-07-09T16:24:17.176Z - info: Using extension chrome-pdf
+2018-07-09T16:24:17.179Z - info: Using extension pdf-utils
+2018-07-09T16:24:17.278Z - info: Using extension version-control
+2018-07-09T16:24:17.295Z - info: Using extension reports
+2018-07-09T16:24:17.297Z - info: Using extension text
+2018-07-09T16:24:17.297Z - info: Using extension base
+2018-07-09T16:24:17.298Z - info: Using extension studio
+2018-07-09T16:24:17.325Z - info: Using extension licensing
+2018-07-09T16:24:17.339Z - info: Using extension scripts
+2018-07-09T16:24:17.342Z - info: Using extension assets
+2018-07-09T16:24:17.349Z - info: Using extension scheduling
+2018-07-09T16:24:17.375Z - info: Using extension xlsx
+2018-07-09T16:24:17.395Z - info: Using extension sample-template
+2018-07-09T16:24:17.397Z - info: Using extension resources
+2018-07-09T16:24:17.398Z - info: Using extension public-templates
+2018-07-09T16:24:17.401Z - info: fs store is persisting using fs
+2018-07-09T16:24:17.402Z - info: fs store is synchronizing using fs
+2018-07-09T16:24:17.403Z - info: fs store is loading data
+2018-07-09T16:24:17.432Z - info: fs store is initialized successfully
+2018-07-09T16:24:17.451Z - info: Creating default express app.
+2018-07-09T16:24:17.464Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:24:17.464Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:24:17.478Z - info: Verifying license key free
+2018-07-09T16:24:17.479Z - info: Using free license
+2018-07-09T16:24:17.480Z - info: reporter initialized
+2018-07-09T16:24:17.486Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:24:17.487Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:24:17.595Z - warn: Error when processing render request Error while executing templating engine. Parse error on line 19:
+... </tr>      {{/each}    </table>  </b
+----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID' Error: Error while executing templating engine. Parse error on line 19:
+... </tr>      {{/each}    </table>  </b
+----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'
+    at Parser.parseError (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:268:19)
+    at Parser.parse (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:337:30)
+    at HandlebarsEnvironment.parse (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:46:43)
+    at compileInput (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:19)
+    at ret (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:524:18)
+    at /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at Object.apply (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/vm2/lib/contextify.js:288:34)
+    at evaluate-template-engine.js:1:41
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at VM.run (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/vm2/lib/main.js:212:72)
+2018-07-09T16:28:00.342Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:28:00.343Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:28:00.348Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:28:00.351Z - info: Found 31 extensions
+2018-07-09T16:28:00.609Z - info: Using extension handlebars
+2018-07-09T16:28:00.612Z - info: Using extension import-export
+2018-07-09T16:28:00.737Z - info: Using extension templates
+2018-07-09T16:28:00.740Z - info: Using extension jsrender
+2018-07-09T16:28:00.741Z - info: Using extension freeze
+2018-07-09T16:28:00.742Z - info: Using extension cli
+2018-07-09T16:28:00.742Z - info: Using extension express
+2018-07-09T16:28:00.847Z - info: Using extension debug
+2018-07-09T16:28:00.848Z - info: Using extension tags
+2018-07-09T16:28:00.850Z - info: Using extension data
+2018-07-09T16:28:00.852Z - info: Using extension fs-store
+2018-07-09T16:28:01.042Z - info: Using extension authorization
+2018-07-09T16:28:01.044Z - info: Using extension html-to-xlsx
+2018-07-09T16:28:01.141Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:28:01.141Z - info: Using extension child-templates
+2018-07-09T16:28:01.142Z - info: Using extension browser-client
+2018-07-09T16:28:01.144Z - info: Using extension chrome-pdf
+2018-07-09T16:28:01.147Z - info: Using extension pdf-utils
+2018-07-09T16:28:01.240Z - info: Using extension version-control
+2018-07-09T16:28:01.259Z - info: Using extension reports
+2018-07-09T16:28:01.260Z - info: Using extension text
+2018-07-09T16:28:01.260Z - info: Using extension base
+2018-07-09T16:28:01.261Z - info: Using extension studio
+2018-07-09T16:28:01.291Z - info: Using extension licensing
+2018-07-09T16:28:01.304Z - info: Using extension scripts
+2018-07-09T16:28:01.307Z - info: Using extension assets
+2018-07-09T16:28:01.313Z - info: Using extension scheduling
+2018-07-09T16:28:01.343Z - info: Using extension xlsx
+2018-07-09T16:28:01.361Z - info: Using extension sample-template
+2018-07-09T16:28:01.362Z - info: Using extension resources
+2018-07-09T16:28:01.363Z - info: Using extension public-templates
+2018-07-09T16:28:01.367Z - info: fs store is persisting using fs
+2018-07-09T16:28:01.367Z - info: fs store is synchronizing using fs
+2018-07-09T16:28:01.368Z - info: fs store is loading data
+2018-07-09T16:28:01.395Z - info: fs store is initialized successfully
+2018-07-09T16:28:01.412Z - info: Creating default express app.
+2018-07-09T16:28:01.422Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:28:01.423Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:28:01.435Z - info: Verifying license key free
+2018-07-09T16:28:01.436Z - info: Using free license
+2018-07-09T16:28:01.437Z - info: reporter initialized
+2018-07-09T16:28:01.445Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:28:01.446Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:28:01.547Z - warn: Error when processing render request Error while executing templating engine. Parse error on line 19:
+... </tr>      {{/each}    </table>  </b
+----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID' Error: Error while executing templating engine. Parse error on line 19:
+... </tr>      {{/each}    </table>  </b
+----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'
+    at Parser.parseError (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:268:19)
+    at Parser.parse (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:337:30)
+    at HandlebarsEnvironment.parse (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:46:43)
+    at compileInput (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:19)
+    at ret (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:524:18)
+    at /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at Object.apply (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/vm2/lib/contextify.js:288:34)
+    at evaluate-template-engine.js:1:41
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at VM.run (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/vm2/lib/main.js:212:72)
+2018-07-09T16:29:18.561Z - info: fs store is loading data
+2018-07-09T16:29:28.610Z - info: fs store is loading data
+2018-07-09T16:29:38.661Z - info: fs store is loading data
+2018-07-09T16:29:48.712Z - info: fs store is loading data
+2018-07-09T16:29:58.762Z - info: fs store is loading data
+2018-07-09T16:30:08.872Z - info: fs store is loading data
+2018-07-09T16:30:29.018Z - info: fs store is loading data
+2018-07-09T16:30:39.069Z - info: fs store is loading data
+2018-07-09T16:30:49.120Z - info: fs store is loading data
+2018-07-09T16:30:59.170Z - info: fs store is loading data
+2018-07-09T16:31:00.007Z - info: fs store is loading data
+2018-07-09T16:31:10.074Z - info: fs store is loading data
+2018-07-09T16:31:28.652Z - info: fs store is loading data
+2018-07-09T16:31:49.335Z - info: fs store is loading data
+2018-07-09T16:31:59.385Z - info: fs store is loading data
+2018-07-09T16:32:20.116Z - info: fs store is loading data
+2018-07-09T16:32:30.166Z - info: fs store is loading data
+2018-07-09T16:32:50.684Z - info: fs store is loading data
+2018-07-09T16:33:00.734Z - info: fs store is loading data
+2018-07-09T16:33:10.842Z - info: fs store is loading data
+2018-07-09T16:33:31.001Z - info: fs store is loading data
+2018-07-09T16:33:41.052Z - info: fs store is loading data
+2018-07-09T16:34:00.011Z - info: fs store is loading data
+2018-07-09T16:34:20.122Z - info: fs store is loading data
+2018-07-09T16:34:40.162Z - info: fs store is loading data
+2018-07-09T16:35:00.012Z - info: fs store is loading data
+2018-07-09T16:35:20.115Z - info: fs store is loading data
+2018-07-09T16:35:40.163Z - info: fs store is loading data
+2018-07-09T16:36:00.012Z - info: fs store is loading data
+2018-07-09T16:36:01.190Z - info: fs store is loading data
+2018-07-09T16:36:22.645Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:36:22.646Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:36:22.652Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:36:22.656Z - info: Found 31 extensions
+2018-07-09T16:36:22.915Z - info: Using extension handlebars
+2018-07-09T16:36:22.918Z - info: Using extension import-export
+2018-07-09T16:36:23.051Z - info: Using extension templates
+2018-07-09T16:36:23.056Z - info: Using extension jsrender
+2018-07-09T16:36:23.056Z - info: Using extension freeze
+2018-07-09T16:36:23.058Z - info: Using extension cli
+2018-07-09T16:36:23.058Z - info: Using extension express
+2018-07-09T16:36:23.166Z - info: Using extension debug
+2018-07-09T16:36:23.167Z - info: Using extension tags
+2018-07-09T16:36:23.170Z - info: Using extension data
+2018-07-09T16:36:23.172Z - info: Using extension fs-store
+2018-07-09T16:36:23.382Z - info: Using extension authorization
+2018-07-09T16:36:23.384Z - info: Using extension html-to-xlsx
+2018-07-09T16:36:23.489Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:36:23.489Z - info: Using extension child-templates
+2018-07-09T16:36:23.491Z - info: Using extension browser-client
+2018-07-09T16:36:23.492Z - info: Using extension chrome-pdf
+2018-07-09T16:36:23.495Z - info: Using extension pdf-utils
+2018-07-09T16:36:23.591Z - info: Using extension version-control
+2018-07-09T16:36:23.609Z - info: Using extension reports
+2018-07-09T16:36:23.611Z - info: Using extension text
+2018-07-09T16:36:23.612Z - info: Using extension base
+2018-07-09T16:36:23.613Z - info: Using extension studio
+2018-07-09T16:36:23.637Z - info: Using extension licensing
+2018-07-09T16:36:23.653Z - info: Using extension scripts
+2018-07-09T16:36:23.658Z - info: Using extension assets
+2018-07-09T16:36:23.665Z - info: Using extension scheduling
+2018-07-09T16:36:23.692Z - info: Using extension xlsx
+2018-07-09T16:36:23.711Z - info: Using extension sample-template
+2018-07-09T16:36:23.713Z - info: Using extension resources
+2018-07-09T16:36:23.713Z - info: Using extension public-templates
+2018-07-09T16:36:23.717Z - info: fs store is persisting using fs
+2018-07-09T16:36:23.718Z - info: fs store is synchronizing using fs
+2018-07-09T16:36:23.746Z - info: fs store is loading data
+2018-07-09T16:36:23.774Z - info: fs store is initialized successfully
+2018-07-09T16:36:23.788Z - info: Creating default express app.
+2018-07-09T16:36:23.800Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:36:23.801Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:36:23.814Z - info: Verifying license key free
+2018-07-09T16:36:23.815Z - info: Using free license
+2018-07-09T16:36:23.816Z - info: reporter initialized
+2018-07-09T16:36:23.823Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:36:23.824Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:36:25.974Z - info: Rendering request 1 finished in 2151 ms
+2018-07-09T16:38:09.569Z - info: fs store is loading data
+2018-07-09T16:38:30.363Z - info: fs store is loading data
+2018-07-09T16:38:40.414Z - info: fs store is loading data
+2018-07-09T16:38:50.465Z - info: fs store is loading data
+2018-07-09T16:38:53.968Z - info: fs store is loading data
+2018-07-09T16:38:56.992Z - info: fs store is loading data
+2018-07-09T16:39:18.329Z - info: fs store is loading data
+2018-07-09T16:39:28.454Z - info: fs store is loading data
+2018-07-09T16:39:48.616Z - info: fs store is loading data
+2018-07-09T16:39:58.667Z - info: fs store is loading data
+2018-07-09T16:40:08.717Z - info: fs store is loading data
+2018-07-09T16:40:18.769Z - info: fs store is loading data
+2018-07-09T16:40:28.879Z - info: fs store is loading data
+2018-07-09T16:40:38.920Z - info: fs store is loading data
+2018-07-09T16:40:48.969Z - info: fs store is loading data
+2018-07-09T16:40:59.020Z - info: fs store is loading data
+2018-07-09T16:41:00.007Z - info: fs store is loading data
+2018-07-09T16:41:10.060Z - info: fs store is loading data
+2018-07-09T16:41:20.111Z - info: fs store is loading data
+2018-07-09T16:41:30.220Z - info: fs store is loading data
+2018-07-09T16:41:50.399Z - info: fs store is loading data
+2018-07-09T16:42:00.011Z - info: fs store is loading data
+2018-07-09T16:42:10.060Z - info: fs store is loading data
+2018-07-09T16:42:11.472Z - info: fs store is loading data
+2018-07-09T16:42:21.524Z - info: fs store is loading data
+2018-07-09T16:42:25.899Z - info: fs store is loading data
+2018-07-09T16:42:47.344Z - info: fs store is loading data
+2018-07-09T16:42:57.394Z - info: fs store is loading data
+2018-07-09T16:43:00.007Z - info: fs store is loading data
+2018-07-09T16:43:10.060Z - info: fs store is loading data
+2018-07-09T16:43:20.111Z - info: fs store is loading data
+2018-07-09T16:43:30.161Z - info: fs store is loading data
+2018-07-09T16:43:40.275Z - info: fs store is loading data
+2018-07-09T16:43:53.702Z - info: fs store is loading data
+2018-07-09T16:44:13.977Z - info: fs store is loading data
+2018-07-09T16:44:24.027Z - info: fs store is loading data
+2018-07-09T16:44:28.981Z - info: fs store is loading data
+2018-07-09T16:44:31.974Z - info: fs store is loading data
+2018-07-09T16:44:34.450Z - info: fs store is loading data
+2018-07-09T16:44:41.619Z - info: fs store is loading data
+2018-07-09T16:45:03.392Z - info: fs store is loading data
+2018-07-09T16:46:09.617Z - info: fs store is loading data
+2018-07-09T16:46:11.511Z - info: fs store is loading data
+2018-07-09T16:46:21.563Z - info: fs store is loading data
+2018-07-09T16:46:31.615Z - info: fs store is loading data
+2018-07-09T16:46:41.726Z - info: fs store is loading data
+2018-07-09T16:46:51.765Z - info: fs store is loading data
+2018-07-09T16:47:01.815Z - info: fs store is loading data
+2018-07-09T16:47:11.866Z - info: fs store is loading data
+2018-07-09T16:47:21.916Z - info: fs store is loading data
+2018-07-09T16:47:31.966Z - info: fs store is loading data
+2018-07-09T16:47:42.079Z - info: fs store is loading data
+2018-07-09T16:47:52.116Z - info: fs store is loading data
+2018-07-09T16:47:56.003Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:47:56.004Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:47:56.010Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:47:56.013Z - info: Found 31 extensions
+2018-07-09T16:47:56.271Z - info: Using extension handlebars
+2018-07-09T16:47:56.275Z - info: Using extension import-export
+2018-07-09T16:47:56.500Z - info: Using extension templates
+2018-07-09T16:47:56.503Z - info: Using extension jsrender
+2018-07-09T16:47:56.503Z - info: Using extension freeze
+2018-07-09T16:47:56.504Z - info: Using extension cli
+2018-07-09T16:47:56.505Z - info: Using extension express
+2018-07-09T16:47:56.640Z - info: Using extension debug
+2018-07-09T16:47:56.641Z - info: Using extension tags
+2018-07-09T16:47:56.644Z - info: Using extension data
+2018-07-09T16:47:56.647Z - info: Using extension fs-store
+2018-07-09T16:47:57.035Z - info: Using extension authorization
+2018-07-09T16:47:57.036Z - info: Using extension html-to-xlsx
+2018-07-09T16:47:57.187Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:47:57.187Z - info: Using extension child-templates
+2018-07-09T16:47:57.189Z - info: Using extension browser-client
+2018-07-09T16:47:57.192Z - info: Using extension chrome-pdf
+2018-07-09T16:47:57.195Z - info: Using extension pdf-utils
+2018-07-09T16:47:57.289Z - info: Using extension version-control
+2018-07-09T16:47:57.310Z - info: Using extension reports
+2018-07-09T16:47:57.312Z - info: Using extension text
+2018-07-09T16:47:57.313Z - info: Using extension base
+2018-07-09T16:47:57.314Z - info: Using extension studio
+2018-07-09T16:47:57.351Z - info: Using extension licensing
+2018-07-09T16:47:57.366Z - info: Using extension scripts
+2018-07-09T16:47:57.369Z - info: Using extension assets
+2018-07-09T16:47:57.374Z - info: Using extension scheduling
+2018-07-09T16:47:57.423Z - info: Using extension xlsx
+2018-07-09T16:47:57.442Z - info: Using extension sample-template
+2018-07-09T16:47:57.443Z - info: Using extension resources
+2018-07-09T16:47:57.445Z - info: Using extension public-templates
+2018-07-09T16:47:57.449Z - info: fs store is persisting using fs
+2018-07-09T16:47:57.449Z - info: fs store is synchronizing using fs
+2018-07-09T16:47:57.451Z - info: fs store is loading data
+2018-07-09T16:47:57.479Z - info: fs store is initialized successfully
+2018-07-09T16:47:57.497Z - info: Creating default express app.
+2018-07-09T16:47:57.518Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:47:57.519Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:47:57.532Z - info: Verifying license key free
+2018-07-09T16:47:57.533Z - info: Using free license
+2018-07-09T16:47:57.534Z - info: reporter initialized
+2018-07-09T16:47:57.540Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:47:57.541Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:47:59.517Z - info: Rendering request 1 finished in 1976 ms
+2018-07-09T16:50:01.085Z - info: fs store is loading data
+2018-07-09T16:50:16.274Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:50:16.275Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:50:16.281Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:50:16.284Z - info: Found 31 extensions
+2018-07-09T16:50:16.544Z - info: Using extension handlebars
+2018-07-09T16:50:16.547Z - info: Using extension import-export
+2018-07-09T16:50:16.675Z - info: Using extension templates
+2018-07-09T16:50:16.678Z - info: Using extension jsrender
+2018-07-09T16:50:16.678Z - info: Using extension freeze
+2018-07-09T16:50:16.679Z - info: Using extension cli
+2018-07-09T16:50:16.680Z - info: Using extension express
+2018-07-09T16:50:16.784Z - info: Using extension debug
+2018-07-09T16:50:16.785Z - info: Using extension tags
+2018-07-09T16:50:16.787Z - info: Using extension data
+2018-07-09T16:50:16.789Z - info: Using extension fs-store
+2018-07-09T16:50:16.987Z - info: Using extension authorization
+2018-07-09T16:50:16.989Z - info: Using extension html-to-xlsx
+2018-07-09T16:50:17.087Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:50:17.087Z - info: Using extension child-templates
+2018-07-09T16:50:17.089Z - info: Using extension browser-client
+2018-07-09T16:50:17.090Z - info: Using extension chrome-pdf
+2018-07-09T16:50:17.093Z - info: Using extension pdf-utils
+2018-07-09T16:50:17.197Z - info: Using extension version-control
+2018-07-09T16:50:17.218Z - info: Using extension reports
+2018-07-09T16:50:17.220Z - info: Using extension text
+2018-07-09T16:50:17.221Z - info: Using extension base
+2018-07-09T16:50:17.222Z - info: Using extension studio
+2018-07-09T16:50:17.258Z - info: Using extension licensing
+2018-07-09T16:50:17.276Z - info: Using extension scripts
+2018-07-09T16:50:17.280Z - info: Using extension assets
+2018-07-09T16:50:17.295Z - info: Using extension scheduling
+2018-07-09T16:50:17.322Z - info: Using extension xlsx
+2018-07-09T16:50:17.340Z - info: Using extension sample-template
+2018-07-09T16:50:17.342Z - info: Using extension resources
+2018-07-09T16:50:17.343Z - info: Using extension public-templates
+2018-07-09T16:50:17.347Z - info: fs store is persisting using fs
+2018-07-09T16:50:17.347Z - info: fs store is synchronizing using fs
+2018-07-09T16:50:17.349Z - info: fs store is loading data
+2018-07-09T16:50:17.376Z - info: fs store is initialized successfully
+2018-07-09T16:50:17.388Z - info: Creating default express app.
+2018-07-09T16:50:17.401Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:50:17.401Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:50:17.414Z - info: Verifying license key free
+2018-07-09T16:50:17.415Z - info: Using free license
+2018-07-09T16:50:17.416Z - info: reporter initialized
+2018-07-09T16:50:17.423Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:50:17.423Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:50:17.746Z - info: Rendering request 1 finished in 324 ms
+2018-07-09T16:51:38.944Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:51:38.945Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:51:38.950Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:51:38.955Z - info: Found 31 extensions
+2018-07-09T16:51:39.214Z - info: Using extension handlebars
+2018-07-09T16:51:39.217Z - info: Using extension import-export
+2018-07-09T16:51:39.343Z - info: Using extension templates
+2018-07-09T16:51:39.347Z - info: Using extension jsrender
+2018-07-09T16:51:39.348Z - info: Using extension freeze
+2018-07-09T16:51:39.349Z - info: Using extension cli
+2018-07-09T16:51:39.349Z - info: Using extension express
+2018-07-09T16:51:39.461Z - info: Using extension debug
+2018-07-09T16:51:39.463Z - info: Using extension tags
+2018-07-09T16:51:39.465Z - info: Using extension data
+2018-07-09T16:51:39.467Z - info: Using extension fs-store
+2018-07-09T16:51:39.678Z - info: Using extension authorization
+2018-07-09T16:51:39.680Z - info: Using extension html-to-xlsx
+2018-07-09T16:51:39.784Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:51:39.784Z - info: Using extension child-templates
+2018-07-09T16:51:39.786Z - info: Using extension browser-client
+2018-07-09T16:51:39.788Z - info: Using extension chrome-pdf
+2018-07-09T16:51:39.791Z - info: Using extension pdf-utils
+2018-07-09T16:51:39.886Z - info: Using extension version-control
+2018-07-09T16:51:39.904Z - info: Using extension reports
+2018-07-09T16:51:39.906Z - info: Using extension text
+2018-07-09T16:51:39.907Z - info: Using extension base
+2018-07-09T16:51:39.908Z - info: Using extension studio
+2018-07-09T16:51:39.933Z - info: Using extension licensing
+2018-07-09T16:51:39.949Z - info: Using extension scripts
+2018-07-09T16:51:39.956Z - info: Using extension assets
+2018-07-09T16:51:39.962Z - info: Using extension scheduling
+2018-07-09T16:51:39.988Z - info: Using extension xlsx
+2018-07-09T16:51:40.007Z - info: Using extension sample-template
+2018-07-09T16:51:40.008Z - info: Using extension resources
+2018-07-09T16:51:40.009Z - info: Using extension public-templates
+2018-07-09T16:51:40.013Z - info: fs store is persisting using fs
+2018-07-09T16:51:40.014Z - info: fs store is synchronizing using fs
+2018-07-09T16:51:40.042Z - info: fs store is loading data
+2018-07-09T16:51:40.071Z - info: fs store is initialized successfully
+2018-07-09T16:51:40.085Z - info: Creating default express app.
+2018-07-09T16:51:40.097Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:51:40.097Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:51:40.111Z - info: Verifying license key free
+2018-07-09T16:51:40.112Z - info: Using free license
+2018-07-09T16:51:40.113Z - info: reporter initialized
+2018-07-09T16:51:40.120Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:51:40.121Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:51:40.460Z - info: Rendering request 1 finished in 340 ms
+2018-07-09T16:52:11.897Z - info: Starting rendering request 2 (user: null)
+2018-07-09T16:52:11.898Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:52:12.119Z - info: Rendering request 2 finished in 222 ms
+2018-07-09T16:53:00.007Z - info: fs store is loading data
+2018-07-09T16:53:10.020Z - info: fs store is loading data
+2018-07-09T16:53:20.070Z - info: fs store is loading data
+2018-07-09T16:53:22.470Z - info: fs store is loading data
+2018-07-09T16:53:32.523Z - info: fs store is loading data
+2018-07-09T16:53:42.573Z - info: fs store is loading data
+2018-07-09T16:53:52.624Z - info: fs store is loading data
+2018-07-09T16:54:02.675Z - info: fs store is loading data
+2018-07-09T16:54:06.053Z - info: fs store is loading data
+2018-07-09T16:54:16.107Z - info: fs store is loading data
+2018-07-09T16:54:23.791Z - info: fs store is loading data
+2018-07-09T16:54:25.050Z - info: fs store is loading data
+2018-07-09T16:54:46.272Z - info: fs store is loading data
+2018-07-09T16:54:56.266Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:54:56.267Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:54:56.272Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:54:56.275Z - info: Found 31 extensions
+2018-07-09T16:54:56.530Z - info: Using extension handlebars
+2018-07-09T16:54:56.533Z - info: Using extension import-export
+2018-07-09T16:54:56.663Z - info: Using extension templates
+2018-07-09T16:54:56.665Z - info: Using extension jsrender
+2018-07-09T16:54:56.666Z - info: Using extension freeze
+2018-07-09T16:54:56.667Z - info: Using extension cli
+2018-07-09T16:54:56.668Z - info: Using extension express
+2018-07-09T16:54:56.772Z - info: Using extension debug
+2018-07-09T16:54:56.773Z - info: Using extension tags
+2018-07-09T16:54:56.775Z - info: Using extension data
+2018-07-09T16:54:56.777Z - info: Using extension fs-store
+2018-07-09T16:54:56.976Z - info: Using extension authorization
+2018-07-09T16:54:56.977Z - info: Using extension html-to-xlsx
+2018-07-09T16:54:57.073Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:54:57.073Z - info: Using extension child-templates
+2018-07-09T16:54:57.075Z - info: Using extension browser-client
+2018-07-09T16:54:57.076Z - info: Using extension chrome-pdf
+2018-07-09T16:54:57.079Z - info: Using extension pdf-utils
+2018-07-09T16:54:57.181Z - info: Using extension version-control
+2018-07-09T16:54:57.202Z - info: Using extension reports
+2018-07-09T16:54:57.204Z - info: Using extension text
+2018-07-09T16:54:57.204Z - info: Using extension base
+2018-07-09T16:54:57.205Z - info: Using extension studio
+2018-07-09T16:54:57.241Z - info: Using extension licensing
+2018-07-09T16:54:57.260Z - info: Using extension scripts
+2018-07-09T16:54:57.264Z - info: Using extension assets
+2018-07-09T16:54:57.274Z - info: Using extension scheduling
+2018-07-09T16:54:57.306Z - info: Using extension xlsx
+2018-07-09T16:54:57.326Z - info: Using extension sample-template
+2018-07-09T16:54:57.327Z - info: Using extension resources
+2018-07-09T16:54:57.328Z - info: Using extension public-templates
+2018-07-09T16:54:57.332Z - info: fs store is persisting using fs
+2018-07-09T16:54:57.332Z - info: fs store is synchronizing using fs
+2018-07-09T16:54:57.336Z - info: fs store is loading data
+2018-07-09T16:54:57.364Z - info: fs store is initialized successfully
+2018-07-09T16:54:57.378Z - info: Creating default express app.
+2018-07-09T16:54:57.390Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:54:57.390Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:54:57.402Z - info: Verifying license key free
+2018-07-09T16:54:57.403Z - info: Using free license
+2018-07-09T16:54:57.403Z - info: reporter initialized
+2018-07-09T16:54:57.410Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:54:57.411Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:54:57.762Z - info: Rendering request 1 finished in 352 ms
+2018-07-09T16:55:06.113Z - info: Starting rendering request 2 (user: null)
+2018-07-09T16:55:06.114Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:55:06.331Z - info: Rendering request 2 finished in 217 ms
+2018-07-09T16:55:09.046Z - info: Starting rendering request 3 (user: null)
+2018-07-09T16:55:09.046Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:55:09.259Z - info: Rendering request 3 finished in 214 ms
+2018-07-09T16:56:09.455Z - info: fs store is loading data
+2018-07-09T16:56:30.345Z - info: fs store is loading data
+2018-07-09T16:56:40.396Z - info: fs store is loading data
+2018-07-09T16:56:50.447Z - info: fs store is loading data
+2018-07-09T16:56:57.253Z - info: fs store is loading data
+2018-07-09T16:57:19.951Z - info: fs store is loading data
+2018-07-09T16:58:49.339Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:58:49.340Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:58:49.346Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:58:49.350Z - info: Found 31 extensions
+2018-07-09T16:58:49.613Z - info: Using extension handlebars
+2018-07-09T16:58:49.616Z - info: Using extension import-export
+2018-07-09T16:58:49.744Z - info: Using extension templates
+2018-07-09T16:58:49.748Z - info: Using extension jsrender
+2018-07-09T16:58:49.748Z - info: Using extension freeze
+2018-07-09T16:58:49.750Z - info: Using extension cli
+2018-07-09T16:58:49.750Z - info: Using extension express
+2018-07-09T16:58:49.855Z - info: Using extension debug
+2018-07-09T16:58:49.857Z - info: Using extension tags
+2018-07-09T16:58:49.859Z - info: Using extension data
+2018-07-09T16:58:49.861Z - info: Using extension fs-store
+2018-07-09T16:58:50.064Z - info: Using extension authorization
+2018-07-09T16:58:50.066Z - info: Using extension html-to-xlsx
+2018-07-09T16:58:50.166Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:58:50.166Z - info: Using extension child-templates
+2018-07-09T16:58:50.167Z - info: Using extension browser-client
+2018-07-09T16:58:50.169Z - info: Using extension chrome-pdf
+2018-07-09T16:58:50.172Z - info: Using extension pdf-utils
+2018-07-09T16:58:50.265Z - info: Using extension version-control
+2018-07-09T16:58:50.283Z - info: Using extension reports
+2018-07-09T16:58:50.285Z - info: Using extension text
+2018-07-09T16:58:50.285Z - info: Using extension base
+2018-07-09T16:58:50.286Z - info: Using extension studio
+2018-07-09T16:58:50.309Z - info: Using extension licensing
+2018-07-09T16:58:50.327Z - info: Using extension scripts
+2018-07-09T16:58:50.330Z - info: Using extension assets
+2018-07-09T16:58:50.341Z - info: Using extension scheduling
+2018-07-09T16:58:50.367Z - info: Using extension xlsx
+2018-07-09T16:58:50.386Z - info: Using extension sample-template
+2018-07-09T16:58:50.387Z - info: Using extension resources
+2018-07-09T16:58:50.388Z - info: Using extension public-templates
+2018-07-09T16:58:50.393Z - info: fs store is persisting using fs
+2018-07-09T16:58:50.393Z - info: fs store is synchronizing using fs
+2018-07-09T16:58:50.423Z - info: fs store is loading data
+2018-07-09T16:58:50.449Z - info: fs store is initialized successfully
+2018-07-09T16:58:50.460Z - info: Creating default express app.
+2018-07-09T16:58:50.472Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:58:50.472Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:58:50.486Z - info: Verifying license key free
+2018-07-09T16:58:50.487Z - info: Using free license
+2018-07-09T16:58:50.488Z - info: reporter initialized
+2018-07-09T16:58:50.495Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:58:50.496Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:58:50.833Z - info: Rendering request 1 finished in 338 ms
+2018-07-09T16:59:11.503Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:59:11.504Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:59:11.510Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:59:11.514Z - info: Found 31 extensions
+2018-07-09T16:59:11.777Z - info: Using extension handlebars
+2018-07-09T16:59:11.780Z - info: Using extension import-export
+2018-07-09T16:59:11.911Z - info: Using extension templates
+2018-07-09T16:59:11.914Z - info: Using extension jsrender
+2018-07-09T16:59:11.915Z - info: Using extension freeze
+2018-07-09T16:59:11.916Z - info: Using extension cli
+2018-07-09T16:59:11.916Z - info: Using extension express
+2018-07-09T16:59:12.024Z - info: Using extension debug
+2018-07-09T16:59:12.025Z - info: Using extension tags
+2018-07-09T16:59:12.027Z - info: Using extension data
+2018-07-09T16:59:12.029Z - info: Using extension fs-store
+2018-07-09T16:59:12.228Z - info: Using extension authorization
+2018-07-09T16:59:12.230Z - info: Using extension html-to-xlsx
+2018-07-09T16:59:12.329Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:59:12.329Z - info: Using extension child-templates
+2018-07-09T16:59:12.331Z - info: Using extension browser-client
+2018-07-09T16:59:12.332Z - info: Using extension chrome-pdf
+2018-07-09T16:59:12.335Z - info: Using extension pdf-utils
+2018-07-09T16:59:12.433Z - info: Using extension version-control
+2018-07-09T16:59:12.452Z - info: Using extension reports
+2018-07-09T16:59:12.454Z - info: Using extension text
+2018-07-09T16:59:12.455Z - info: Using extension base
+2018-07-09T16:59:12.456Z - info: Using extension studio
+2018-07-09T16:59:12.485Z - info: Using extension licensing
+2018-07-09T16:59:12.500Z - info: Using extension scripts
+2018-07-09T16:59:12.503Z - info: Using extension assets
+2018-07-09T16:59:12.509Z - info: Using extension scheduling
+2018-07-09T16:59:12.536Z - info: Using extension xlsx
+2018-07-09T16:59:12.554Z - info: Using extension sample-template
+2018-07-09T16:59:12.556Z - info: Using extension resources
+2018-07-09T16:59:12.556Z - info: Using extension public-templates
+2018-07-09T16:59:12.561Z - info: fs store is persisting using fs
+2018-07-09T16:59:12.561Z - info: fs store is synchronizing using fs
+2018-07-09T16:59:12.563Z - info: fs store is loading data
+2018-07-09T16:59:12.592Z - info: fs store is initialized successfully
+2018-07-09T16:59:12.610Z - info: Creating default express app.
+2018-07-09T16:59:12.621Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:59:12.622Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:59:12.634Z - info: Verifying license key free
+2018-07-09T16:59:12.636Z - info: Using free license
+2018-07-09T16:59:12.637Z - info: reporter initialized
+2018-07-09T16:59:12.643Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:59:12.644Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:59:12.657Z - warn: Error when processing render request Request to file /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/local-assets/logo.png denied. Please allow it by setting config { "assets": { "allowedFiles": "**/foo.js" } } Error: Request to file /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/local-assets/logo.png denied. Please allow it by setting config { "assets": { "allowedFiles": "**/foo.js" } }
+    at module.exports (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-core/lib/util/createError.js:9:13)
+    at Reporter.createError (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-core/lib/reporter.js:258:12)
+    at linkPath (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-assets/lib/assets.js:88:20)
+    at readFile (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-assets/lib/assets.js:98:28)
+    at readAsset (/Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-assets/lib/assets.js:162:24)
+    at <anonymous>
+2018-07-09T16:59:46.430Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T16:59:46.431Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:59:46.436Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T16:59:46.439Z - info: Found 31 extensions
+2018-07-09T16:59:46.699Z - info: Using extension handlebars
+2018-07-09T16:59:46.702Z - info: Using extension import-export
+2018-07-09T16:59:46.832Z - info: Using extension templates
+2018-07-09T16:59:46.834Z - info: Using extension jsrender
+2018-07-09T16:59:46.835Z - info: Using extension freeze
+2018-07-09T16:59:46.836Z - info: Using extension cli
+2018-07-09T16:59:46.837Z - info: Using extension express
+2018-07-09T16:59:46.944Z - info: Using extension debug
+2018-07-09T16:59:46.945Z - info: Using extension tags
+2018-07-09T16:59:46.948Z - info: Using extension data
+2018-07-09T16:59:46.949Z - info: Using extension fs-store
+2018-07-09T16:59:47.148Z - info: Using extension authorization
+2018-07-09T16:59:47.149Z - info: Using extension html-to-xlsx
+2018-07-09T16:59:47.248Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T16:59:47.248Z - info: Using extension child-templates
+2018-07-09T16:59:47.249Z - info: Using extension browser-client
+2018-07-09T16:59:47.251Z - info: Using extension chrome-pdf
+2018-07-09T16:59:47.254Z - info: Using extension pdf-utils
+2018-07-09T16:59:47.350Z - info: Using extension version-control
+2018-07-09T16:59:47.368Z - info: Using extension reports
+2018-07-09T16:59:47.369Z - info: Using extension text
+2018-07-09T16:59:47.369Z - info: Using extension base
+2018-07-09T16:59:47.370Z - info: Using extension studio
+2018-07-09T16:59:47.399Z - info: Using extension licensing
+2018-07-09T16:59:47.415Z - info: Using extension scripts
+2018-07-09T16:59:47.418Z - info: Using extension assets
+2018-07-09T16:59:47.425Z - info: Using extension scheduling
+2018-07-09T16:59:47.453Z - info: Using extension xlsx
+2018-07-09T16:59:47.472Z - info: Using extension sample-template
+2018-07-09T16:59:47.474Z - info: Using extension resources
+2018-07-09T16:59:47.475Z - info: Using extension public-templates
+2018-07-09T16:59:47.478Z - info: fs store is persisting using fs
+2018-07-09T16:59:47.479Z - info: fs store is synchronizing using fs
+2018-07-09T16:59:47.480Z - info: fs store is loading data
+2018-07-09T16:59:47.509Z - info: fs store is initialized successfully
+2018-07-09T16:59:47.527Z - info: Creating default express app.
+2018-07-09T16:59:47.540Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T16:59:47.540Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T16:59:47.554Z - info: Verifying license key free
+2018-07-09T16:59:47.554Z - info: Using free license
+2018-07-09T16:59:47.555Z - info: reporter initialized
+2018-07-09T16:59:47.561Z - info: Starting rendering request 1 (user: null)
+2018-07-09T16:59:47.562Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T16:59:47.895Z - info: Rendering request 1 finished in 334 ms
+2018-07-09T17:01:39.414Z - info: fs store is loading data
+2018-07-09T17:02:09.874Z - info: fs store is loading data
+2018-07-09T17:02:19.925Z - info: fs store is loading data
+2018-07-09T17:02:29.975Z - info: fs store is loading data
+2018-07-09T17:02:40.026Z - info: fs store is loading data
+2018-07-09T17:02:50.138Z - info: fs store is loading data
+2018-07-09T17:03:09.025Z - info: fs store is loading data
+2018-07-09T17:03:11.587Z - info: fs store is loading data
+2018-07-09T17:03:29.162Z - info: fs store is loading data
+2018-07-09T17:04:04.081Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:04:04.082Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:04:04.087Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:04:04.090Z - info: Found 31 extensions
+2018-07-09T17:04:04.356Z - info: Using extension handlebars
+2018-07-09T17:04:04.360Z - info: Using extension import-export
+2018-07-09T17:04:04.492Z - info: Using extension templates
+2018-07-09T17:04:04.494Z - info: Using extension jsrender
+2018-07-09T17:04:04.495Z - info: Using extension freeze
+2018-07-09T17:04:04.496Z - info: Using extension cli
+2018-07-09T17:04:04.496Z - info: Using extension express
+2018-07-09T17:04:04.600Z - info: Using extension debug
+2018-07-09T17:04:04.601Z - info: Using extension tags
+2018-07-09T17:04:04.603Z - info: Using extension data
+2018-07-09T17:04:04.605Z - info: Using extension fs-store
+2018-07-09T17:04:04.808Z - info: Using extension authorization
+2018-07-09T17:04:04.810Z - info: Using extension html-to-xlsx
+2018-07-09T17:04:04.910Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:04:04.910Z - info: Using extension child-templates
+2018-07-09T17:04:04.912Z - info: Using extension browser-client
+2018-07-09T17:04:04.913Z - info: Using extension chrome-pdf
+2018-07-09T17:04:04.916Z - info: Using extension pdf-utils
+2018-07-09T17:04:05.012Z - info: Using extension version-control
+2018-07-09T17:04:05.029Z - info: Using extension reports
+2018-07-09T17:04:05.030Z - info: Using extension text
+2018-07-09T17:04:05.031Z - info: Using extension base
+2018-07-09T17:04:05.032Z - info: Using extension studio
+2018-07-09T17:04:05.061Z - info: Using extension licensing
+2018-07-09T17:04:05.074Z - info: Using extension scripts
+2018-07-09T17:04:05.078Z - info: Using extension assets
+2018-07-09T17:04:05.085Z - info: Using extension scheduling
+2018-07-09T17:04:05.112Z - info: Using extension xlsx
+2018-07-09T17:04:05.132Z - info: Using extension sample-template
+2018-07-09T17:04:05.134Z - info: Using extension resources
+2018-07-09T17:04:05.135Z - info: Using extension public-templates
+2018-07-09T17:04:05.139Z - info: fs store is persisting using fs
+2018-07-09T17:04:05.139Z - info: fs store is synchronizing using fs
+2018-07-09T17:04:05.141Z - info: fs store is loading data
+2018-07-09T17:04:05.170Z - info: fs store is initialized successfully
+2018-07-09T17:04:05.188Z - info: Creating default express app.
+2018-07-09T17:04:05.202Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:04:05.202Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:04:05.217Z - info: Verifying license key free
+2018-07-09T17:04:05.218Z - info: Using free license
+2018-07-09T17:04:05.219Z - info: reporter initialized
+2018-07-09T17:04:05.225Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:04:05.225Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:04:05.567Z - info: Rendering request 1 finished in 341 ms
+2018-07-09T17:05:07.643Z - info: fs store is loading data
+2018-07-09T17:05:09.003Z - info: fs store is loading data
+2018-07-09T17:05:19.055Z - info: fs store is loading data
+2018-07-09T17:05:22.993Z - info: fs store is loading data
+2018-07-09T17:05:43.666Z - info: fs store is loading data
+2018-07-09T17:05:53.717Z - info: fs store is loading data
+2018-07-09T17:06:03.767Z - info: fs store is loading data
+2018-07-09T17:06:12.636Z - info: fs store is loading data
+2018-07-09T17:06:22.686Z - info: fs store is loading data
+2018-07-09T17:06:23.722Z - info: fs store is loading data
+2018-07-09T17:06:24.671Z - info: fs store is loading data
+2018-07-09T17:06:27.580Z - info: fs store is loading data
+2018-07-09T17:06:28.528Z - info: fs store is loading data
+2018-07-09T17:06:52.760Z - info: fs store is loading data
+2018-07-09T17:07:02.811Z - info: fs store is loading data
+2018-07-09T17:07:05.094Z - info: fs store is loading data
+2018-07-09T17:07:26.440Z - info: fs store is loading data
+2018-07-09T17:07:36.490Z - info: fs store is loading data
+2018-07-09T17:07:38.753Z - info: fs store is loading data
+2018-07-09T17:07:46.513Z - info: fs store is loading data
+2018-07-09T17:08:01.116Z - info: fs store is loading data
+2018-07-09T17:08:17.638Z - info: fs store is loading data
+2018-07-09T17:08:20.595Z - info: fs store is loading data
+2018-07-09T17:08:30.307Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:08:30.308Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:08:30.313Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:08:30.317Z - info: Found 31 extensions
+2018-07-09T17:08:30.587Z - info: Using extension handlebars
+2018-07-09T17:08:30.591Z - info: Using extension import-export
+2018-07-09T17:08:30.722Z - info: Using extension templates
+2018-07-09T17:08:30.724Z - info: Using extension jsrender
+2018-07-09T17:08:30.725Z - info: Using extension freeze
+2018-07-09T17:08:30.726Z - info: Using extension cli
+2018-07-09T17:08:30.727Z - info: Using extension express
+2018-07-09T17:08:30.831Z - info: Using extension debug
+2018-07-09T17:08:30.832Z - info: Using extension tags
+2018-07-09T17:08:30.834Z - info: Using extension data
+2018-07-09T17:08:30.836Z - info: Using extension fs-store
+2018-07-09T17:08:31.030Z - info: Using extension authorization
+2018-07-09T17:08:31.031Z - info: Using extension html-to-xlsx
+2018-07-09T17:08:31.127Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:08:31.127Z - info: Using extension child-templates
+2018-07-09T17:08:31.129Z - info: Using extension browser-client
+2018-07-09T17:08:31.130Z - info: Using extension chrome-pdf
+2018-07-09T17:08:31.133Z - info: Using extension pdf-utils
+2018-07-09T17:08:31.234Z - info: Using extension version-control
+2018-07-09T17:08:31.253Z - info: Using extension reports
+2018-07-09T17:08:31.254Z - info: Using extension text
+2018-07-09T17:08:31.254Z - info: Using extension base
+2018-07-09T17:08:31.257Z - info: Using extension studio
+2018-07-09T17:08:31.288Z - info: Using extension licensing
+2018-07-09T17:08:31.302Z - info: Using extension scripts
+2018-07-09T17:08:31.305Z - info: Using extension assets
+2018-07-09T17:08:31.311Z - info: Using extension scheduling
+2018-07-09T17:08:31.338Z - info: Using extension xlsx
+2018-07-09T17:08:31.357Z - info: Using extension sample-template
+2018-07-09T17:08:31.358Z - info: Using extension resources
+2018-07-09T17:08:31.359Z - info: Using extension public-templates
+2018-07-09T17:08:31.364Z - info: fs store is persisting using fs
+2018-07-09T17:08:31.364Z - info: fs store is synchronizing using fs
+2018-07-09T17:08:31.366Z - info: fs store is loading data
+2018-07-09T17:08:31.393Z - info: fs store is initialized successfully
+2018-07-09T17:08:31.411Z - info: Creating default express app.
+2018-07-09T17:08:31.421Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:08:31.422Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:08:31.436Z - info: Verifying license key free
+2018-07-09T17:08:31.438Z - info: Using free license
+2018-07-09T17:08:31.439Z - info: reporter initialized
+2018-07-09T17:08:31.446Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:08:31.447Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:08:31.792Z - info: Rendering request 1 finished in 346 ms
+2018-07-09T17:08:52.090Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:08:52.091Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:08:52.097Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:08:52.100Z - info: Found 31 extensions
+2018-07-09T17:08:52.364Z - info: Using extension handlebars
+2018-07-09T17:08:52.367Z - info: Using extension import-export
+2018-07-09T17:08:52.500Z - info: Using extension templates
+2018-07-09T17:08:52.502Z - info: Using extension jsrender
+2018-07-09T17:08:52.503Z - info: Using extension freeze
+2018-07-09T17:08:52.504Z - info: Using extension cli
+2018-07-09T17:08:52.505Z - info: Using extension express
+2018-07-09T17:08:52.609Z - info: Using extension debug
+2018-07-09T17:08:52.610Z - info: Using extension tags
+2018-07-09T17:08:52.612Z - info: Using extension data
+2018-07-09T17:08:52.614Z - info: Using extension fs-store
+2018-07-09T17:08:52.821Z - info: Using extension authorization
+2018-07-09T17:08:52.823Z - info: Using extension html-to-xlsx
+2018-07-09T17:08:52.927Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:08:52.927Z - info: Using extension child-templates
+2018-07-09T17:08:52.930Z - info: Using extension browser-client
+2018-07-09T17:08:52.932Z - info: Using extension chrome-pdf
+2018-07-09T17:08:52.935Z - info: Using extension pdf-utils
+2018-07-09T17:08:53.033Z - info: Using extension version-control
+2018-07-09T17:08:53.052Z - info: Using extension reports
+2018-07-09T17:08:53.053Z - info: Using extension text
+2018-07-09T17:08:53.054Z - info: Using extension base
+2018-07-09T17:08:53.055Z - info: Using extension studio
+2018-07-09T17:08:53.085Z - info: Using extension licensing
+2018-07-09T17:08:53.099Z - info: Using extension scripts
+2018-07-09T17:08:53.102Z - info: Using extension assets
+2018-07-09T17:08:53.108Z - info: Using extension scheduling
+2018-07-09T17:08:53.135Z - info: Using extension xlsx
+2018-07-09T17:08:53.154Z - info: Using extension sample-template
+2018-07-09T17:08:53.156Z - info: Using extension resources
+2018-07-09T17:08:53.156Z - info: Using extension public-templates
+2018-07-09T17:08:53.160Z - info: fs store is persisting using fs
+2018-07-09T17:08:53.161Z - info: fs store is synchronizing using fs
+2018-07-09T17:08:53.163Z - info: fs store is loading data
+2018-07-09T17:08:53.190Z - info: fs store is initialized successfully
+2018-07-09T17:08:53.207Z - info: Creating default express app.
+2018-07-09T17:08:53.218Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:08:53.219Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:08:53.231Z - info: Verifying license key free
+2018-07-09T17:08:53.231Z - info: Using free license
+2018-07-09T17:08:53.232Z - info: reporter initialized
+2018-07-09T17:08:53.238Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:08:53.239Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:08:54.854Z - info: Rendering request 1 finished in 1616 ms
+2018-07-09T17:10:11.573Z - info: fs store is loading data
+2018-07-09T17:10:21.600Z - info: fs store is loading data
+2018-07-09T17:10:31.651Z - info: fs store is loading data
+2018-07-09T17:10:35.289Z - info: fs store is loading data
+2018-07-09T17:10:41.817Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:10:41.818Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:10:41.823Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:10:41.827Z - info: Found 31 extensions
+2018-07-09T17:10:42.087Z - info: Using extension handlebars
+2018-07-09T17:10:42.091Z - info: Using extension import-export
+2018-07-09T17:10:42.220Z - info: Using extension templates
+2018-07-09T17:10:42.222Z - info: Using extension jsrender
+2018-07-09T17:10:42.223Z - info: Using extension freeze
+2018-07-09T17:10:42.224Z - info: Using extension cli
+2018-07-09T17:10:42.225Z - info: Using extension express
+2018-07-09T17:10:42.330Z - info: Using extension debug
+2018-07-09T17:10:42.331Z - info: Using extension tags
+2018-07-09T17:10:42.334Z - info: Using extension data
+2018-07-09T17:10:42.335Z - info: Using extension fs-store
+2018-07-09T17:10:42.537Z - info: Using extension authorization
+2018-07-09T17:10:42.539Z - info: Using extension html-to-xlsx
+2018-07-09T17:10:42.636Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:10:42.636Z - info: Using extension child-templates
+2018-07-09T17:10:42.639Z - info: Using extension browser-client
+2018-07-09T17:10:42.640Z - info: Using extension chrome-pdf
+2018-07-09T17:10:42.643Z - info: Using extension pdf-utils
+2018-07-09T17:10:42.741Z - info: Using extension version-control
+2018-07-09T17:10:42.758Z - info: Using extension reports
+2018-07-09T17:10:42.760Z - info: Using extension text
+2018-07-09T17:10:42.760Z - info: Using extension base
+2018-07-09T17:10:42.761Z - info: Using extension studio
+2018-07-09T17:10:42.790Z - info: Using extension licensing
+2018-07-09T17:10:42.804Z - info: Using extension scripts
+2018-07-09T17:10:42.807Z - info: Using extension assets
+2018-07-09T17:10:42.814Z - info: Using extension scheduling
+2018-07-09T17:10:42.842Z - info: Using extension xlsx
+2018-07-09T17:10:42.862Z - info: Using extension sample-template
+2018-07-09T17:10:42.864Z - info: Using extension resources
+2018-07-09T17:10:42.865Z - info: Using extension public-templates
+2018-07-09T17:10:42.869Z - info: fs store is persisting using fs
+2018-07-09T17:10:42.869Z - info: fs store is synchronizing using fs
+2018-07-09T17:10:42.871Z - info: fs store is loading data
+2018-07-09T17:10:42.899Z - info: fs store is initialized successfully
+2018-07-09T17:10:42.917Z - info: Creating default express app.
+2018-07-09T17:10:42.930Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:10:42.931Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:10:42.944Z - info: Verifying license key free
+2018-07-09T17:10:42.946Z - info: Using free license
+2018-07-09T17:10:42.947Z - info: reporter initialized
+2018-07-09T17:10:42.953Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:10:42.954Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:10:43.283Z - info: Rendering request 1 finished in 330 ms
+2018-07-09T17:12:28.565Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:12:28.566Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:12:28.572Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:12:28.575Z - info: Found 31 extensions
+2018-07-09T17:12:28.839Z - info: Using extension handlebars
+2018-07-09T17:12:28.842Z - info: Using extension import-export
+2018-07-09T17:12:28.974Z - info: Using extension templates
+2018-07-09T17:12:28.976Z - info: Using extension jsrender
+2018-07-09T17:12:28.977Z - info: Using extension freeze
+2018-07-09T17:12:28.978Z - info: Using extension cli
+2018-07-09T17:12:28.979Z - info: Using extension express
+2018-07-09T17:12:29.082Z - info: Using extension debug
+2018-07-09T17:12:29.084Z - info: Using extension tags
+2018-07-09T17:12:29.086Z - info: Using extension data
+2018-07-09T17:12:29.088Z - info: Using extension fs-store
+2018-07-09T17:12:29.281Z - info: Using extension authorization
+2018-07-09T17:12:29.282Z - info: Using extension html-to-xlsx
+2018-07-09T17:12:29.376Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:12:29.376Z - info: Using extension child-templates
+2018-07-09T17:12:29.378Z - info: Using extension browser-client
+2018-07-09T17:12:29.380Z - info: Using extension chrome-pdf
+2018-07-09T17:12:29.382Z - info: Using extension pdf-utils
+2018-07-09T17:12:29.481Z - info: Using extension version-control
+2018-07-09T17:12:29.500Z - info: Using extension reports
+2018-07-09T17:12:29.501Z - info: Using extension text
+2018-07-09T17:12:29.502Z - info: Using extension base
+2018-07-09T17:12:29.502Z - info: Using extension studio
+2018-07-09T17:12:29.531Z - info: Using extension licensing
+2018-07-09T17:12:29.545Z - info: Using extension scripts
+2018-07-09T17:12:29.548Z - info: Using extension assets
+2018-07-09T17:12:29.554Z - info: Using extension scheduling
+2018-07-09T17:12:29.581Z - info: Using extension xlsx
+2018-07-09T17:12:29.601Z - info: Using extension sample-template
+2018-07-09T17:12:29.602Z - info: Using extension resources
+2018-07-09T17:12:29.603Z - info: Using extension public-templates
+2018-07-09T17:12:29.606Z - info: fs store is persisting using fs
+2018-07-09T17:12:29.607Z - info: fs store is synchronizing using fs
+2018-07-09T17:12:29.609Z - info: fs store is loading data
+2018-07-09T17:12:29.635Z - info: fs store is initialized successfully
+2018-07-09T17:12:29.652Z - info: Creating default express app.
+2018-07-09T17:12:29.664Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:12:29.664Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:12:29.676Z - info: Verifying license key free
+2018-07-09T17:12:29.677Z - info: Using free license
+2018-07-09T17:12:29.678Z - info: reporter initialized
+2018-07-09T17:12:29.684Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:12:29.684Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:12:30.018Z - info: Rendering request 1 finished in 334 ms
+2018-07-09T17:12:33.211Z - info: Starting rendering request 2 (user: null)
+2018-07-09T17:12:33.211Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:12:33.429Z - info: Rendering request 2 finished in 218 ms
+2018-07-09T17:13:39.220Z - info: fs store is loading data
+2018-07-09T17:13:49.161Z - info: fs store is loading data
+2018-07-09T17:13:59.212Z - info: fs store is loading data
+2018-07-09T17:14:09.263Z - info: fs store is loading data
+2018-07-09T17:14:19.313Z - info: fs store is loading data
+2018-07-09T17:14:29.428Z - info: fs store is loading data
+2018-07-09T17:14:39.463Z - info: fs store is loading data
+2018-07-09T17:14:49.514Z - info: fs store is loading data
+2018-07-09T17:14:59.563Z - info: fs store is loading data
+2018-07-09T17:15:09.615Z - info: fs store is loading data
+2018-07-09T17:15:19.665Z - info: fs store is loading data
+2018-07-09T17:15:29.776Z - info: fs store is loading data
+2018-07-09T17:15:33.632Z - info: fs store is loading data
+2018-07-09T17:15:43.641Z - info: fs store is loading data
+2018-07-09T17:15:53.692Z - info: fs store is loading data
+2018-07-09T17:16:03.743Z - info: fs store is loading data
+2018-07-09T17:16:13.793Z - info: fs store is loading data
+2018-07-09T17:16:23.844Z - info: fs store is loading data
+2018-07-09T17:16:33.955Z - info: fs store is loading data
+2018-07-09T17:16:43.994Z - info: fs store is loading data
+2018-07-09T17:16:54.045Z - info: fs store is loading data
+2018-07-09T17:17:00.011Z - info: fs store is loading data
+2018-07-09T17:17:10.061Z - info: fs store is loading data
+2018-07-09T17:17:20.111Z - info: fs store is loading data
+2018-07-09T17:17:30.175Z - info: fs store is loading data
+2018-07-09T17:17:34.037Z - info: fs store is loading data
+2018-07-09T17:17:47.950Z - info: fs store is loading data
+2018-07-09T17:17:58.003Z - info: fs store is loading data
+2018-07-09T17:18:08.053Z - info: fs store is loading data
+2018-07-09T17:18:28.536Z - info: fs store is loading data
+2018-07-09T17:18:38.648Z - info: fs store is loading data
+2018-07-09T17:18:48.686Z - info: fs store is loading data
+2018-07-09T17:18:58.737Z - info: fs store is loading data
+2018-07-09T17:19:08.322Z - info: fs store is loading data
+2018-07-09T17:19:13.683Z - info: fs store is loading data
+2018-07-09T17:19:23.732Z - info: fs store is loading data
+2018-07-09T17:19:33.783Z - info: fs store is loading data
+2018-07-09T17:19:43.897Z - info: fs store is loading data
+2018-07-09T17:19:53.932Z - info: fs store is loading data
+2018-07-09T17:19:55.956Z - info: fs store is loading data
+2018-07-09T17:20:11.209Z - info: fs store is loading data
+2018-07-09T17:20:22.242Z - info: fs store is loading data
+2018-07-09T17:20:40.503Z - info: fs store is loading data
+2018-07-09T17:21:01.852Z - info: fs store is loading data
+2018-07-09T17:21:11.902Z - info: fs store is loading data
+2018-07-09T17:21:21.953Z - info: fs store is loading data
+2018-07-09T17:21:25.701Z - info: fs store is loading data
+2018-07-09T17:21:32.403Z - info: fs store is loading data
+2018-07-09T17:21:56.936Z - info: fs store is loading data
+2018-07-09T17:23:09.299Z - info: fs store is loading data
+2018-07-09T17:24:24.812Z - info: fs store is loading data
+2018-07-09T17:25:23.657Z - info: Starting rendering request 3 (user: null)
+2018-07-09T17:25:23.657Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:25:23.890Z - info: Rendering request 3 finished in 234 ms
+2018-07-09T17:27:34.559Z - info: fs store is loading data
+2018-07-09T17:27:51.599Z - info: fs store is loading data
+2018-07-09T17:27:58.085Z - info: fs store is loading data
+2018-07-09T17:28:00.007Z - info: fs store is loading data
+2018-07-09T17:28:02.302Z - info: fs store is loading data
+2018-07-09T17:28:12.354Z - info: fs store is loading data
+2018-07-09T17:28:30.553Z - info: fs store is loading data
+2018-07-09T17:28:39.165Z - info: fs store is loading data
+2018-07-09T17:28:42.183Z - info: fs store is loading data
+2018-07-09T17:29:08.442Z - info: fs store is loading data
+2018-07-09T17:29:18.494Z - info: fs store is loading data
+2018-07-09T17:29:28.545Z - info: fs store is loading data
+2018-07-09T17:30:02.032Z - info: fs store is loading data
+2018-07-09T17:30:11.928Z - info: fs store is loading data
+2018-07-09T17:30:16.415Z - info: fs store is loading data
+2018-07-09T17:30:17.284Z - info: fs store is loading data
+2018-07-09T17:30:23.988Z - info: fs store is loading data
+2018-07-09T17:30:32.733Z - info: fs store is loading data
+2018-07-09T17:30:37.224Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:30:37.225Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:30:37.231Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:30:37.234Z - info: Found 31 extensions
+2018-07-09T17:30:37.495Z - info: Using extension handlebars
+2018-07-09T17:30:37.498Z - info: Using extension import-export
+2018-07-09T17:30:37.734Z - info: Using extension templates
+2018-07-09T17:30:37.759Z - info: Using extension jsrender
+2018-07-09T17:30:37.760Z - info: Using extension freeze
+2018-07-09T17:30:37.761Z - info: Using extension cli
+2018-07-09T17:30:37.761Z - info: Using extension express
+2018-07-09T17:30:37.964Z - info: Using extension debug
+2018-07-09T17:30:37.965Z - info: Using extension tags
+2018-07-09T17:30:37.968Z - info: Using extension data
+2018-07-09T17:30:37.971Z - info: Using extension fs-store
+2018-07-09T17:30:38.606Z - info: Using extension authorization
+2018-07-09T17:30:38.608Z - info: Using extension html-to-xlsx
+2018-07-09T17:30:38.955Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:30:38.955Z - info: Using extension child-templates
+2018-07-09T17:30:38.982Z - info: Using extension browser-client
+2018-07-09T17:30:38.986Z - info: Using extension chrome-pdf
+2018-07-09T17:30:38.989Z - info: Using extension pdf-utils
+2018-07-09T17:30:39.105Z - info: Using extension version-control
+2018-07-09T17:30:39.141Z - info: Using extension reports
+2018-07-09T17:30:39.142Z - info: Using extension text
+2018-07-09T17:30:39.143Z - info: Using extension base
+2018-07-09T17:30:39.144Z - info: Using extension studio
+2018-07-09T17:30:39.186Z - info: Using extension licensing
+2018-07-09T17:30:39.215Z - info: Using extension scripts
+2018-07-09T17:30:39.228Z - info: Using extension assets
+2018-07-09T17:30:39.235Z - info: Using extension scheduling
+2018-07-09T17:30:39.419Z - info: Using extension xlsx
+2018-07-09T17:30:39.451Z - info: Using extension sample-template
+2018-07-09T17:30:39.452Z - info: Using extension resources
+2018-07-09T17:30:39.453Z - info: Using extension public-templates
+2018-07-09T17:30:39.457Z - info: fs store is persisting using fs
+2018-07-09T17:30:39.457Z - info: fs store is synchronizing using fs
+2018-07-09T17:30:39.458Z - info: fs store is loading data
+2018-07-09T17:30:39.485Z - info: fs store is initialized successfully
+2018-07-09T17:30:39.504Z - info: Creating default express app.
+2018-07-09T17:30:39.549Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:30:39.549Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:30:39.564Z - info: Verifying license key free
+2018-07-09T17:30:39.565Z - info: Using free license
+2018-07-09T17:30:39.566Z - info: reporter initialized
+2018-07-09T17:30:39.572Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:30:39.573Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:30:40.111Z - info: Rendering request 1 finished in 539 ms
+2018-07-09T17:31:08.531Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:31:08.532Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:31:08.537Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:31:08.540Z - info: Found 31 extensions
+2018-07-09T17:31:08.807Z - info: Using extension handlebars
+2018-07-09T17:31:08.810Z - info: Using extension import-export
+2018-07-09T17:31:08.944Z - info: Using extension templates
+2018-07-09T17:31:08.947Z - info: Using extension jsrender
+2018-07-09T17:31:08.947Z - info: Using extension freeze
+2018-07-09T17:31:08.948Z - info: Using extension cli
+2018-07-09T17:31:08.949Z - info: Using extension express
+2018-07-09T17:31:09.053Z - info: Using extension debug
+2018-07-09T17:31:09.055Z - info: Using extension tags
+2018-07-09T17:31:09.057Z - info: Using extension data
+2018-07-09T17:31:09.059Z - info: Using extension fs-store
+2018-07-09T17:31:09.262Z - info: Using extension authorization
+2018-07-09T17:31:09.264Z - info: Using extension html-to-xlsx
+2018-07-09T17:31:09.368Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:31:09.369Z - info: Using extension child-templates
+2018-07-09T17:31:09.371Z - info: Using extension browser-client
+2018-07-09T17:31:09.373Z - info: Using extension chrome-pdf
+2018-07-09T17:31:09.376Z - info: Using extension pdf-utils
+2018-07-09T17:31:09.475Z - info: Using extension version-control
+2018-07-09T17:31:09.494Z - info: Using extension reports
+2018-07-09T17:31:09.496Z - info: Using extension text
+2018-07-09T17:31:09.496Z - info: Using extension base
+2018-07-09T17:31:09.497Z - info: Using extension studio
+2018-07-09T17:31:09.527Z - info: Using extension licensing
+2018-07-09T17:31:09.542Z - info: Using extension scripts
+2018-07-09T17:31:09.546Z - info: Using extension assets
+2018-07-09T17:31:09.552Z - info: Using extension scheduling
+2018-07-09T17:31:09.581Z - info: Using extension xlsx
+2018-07-09T17:31:09.600Z - info: Using extension sample-template
+2018-07-09T17:31:09.602Z - info: Using extension resources
+2018-07-09T17:31:09.603Z - info: Using extension public-templates
+2018-07-09T17:31:09.606Z - info: fs store is persisting using fs
+2018-07-09T17:31:09.607Z - info: fs store is synchronizing using fs
+2018-07-09T17:31:09.609Z - info: fs store is loading data
+2018-07-09T17:31:09.637Z - info: fs store is initialized successfully
+2018-07-09T17:31:09.655Z - info: Creating default express app.
+2018-07-09T17:31:09.667Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:31:09.667Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:31:09.680Z - info: Verifying license key free
+2018-07-09T17:31:09.682Z - info: Using free license
+2018-07-09T17:31:09.683Z - info: reporter initialized
+2018-07-09T17:31:09.689Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:31:09.690Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:31:10.027Z - info: Rendering request 1 finished in 338 ms
+2018-07-09T17:31:34.470Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:31:34.471Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:31:34.477Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:31:34.480Z - info: Found 31 extensions
+2018-07-09T17:31:34.738Z - info: Using extension handlebars
+2018-07-09T17:31:34.741Z - info: Using extension import-export
+2018-07-09T17:31:34.868Z - info: Using extension templates
+2018-07-09T17:31:34.871Z - info: Using extension jsrender
+2018-07-09T17:31:34.871Z - info: Using extension freeze
+2018-07-09T17:31:34.872Z - info: Using extension cli
+2018-07-09T17:31:34.873Z - info: Using extension express
+2018-07-09T17:31:34.975Z - info: Using extension debug
+2018-07-09T17:31:34.976Z - info: Using extension tags
+2018-07-09T17:31:34.978Z - info: Using extension data
+2018-07-09T17:31:34.980Z - info: Using extension fs-store
+2018-07-09T17:31:35.179Z - info: Using extension authorization
+2018-07-09T17:31:35.181Z - info: Using extension html-to-xlsx
+2018-07-09T17:31:35.279Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:31:35.280Z - info: Using extension child-templates
+2018-07-09T17:31:35.281Z - info: Using extension browser-client
+2018-07-09T17:31:35.283Z - info: Using extension chrome-pdf
+2018-07-09T17:31:35.286Z - info: Using extension pdf-utils
+2018-07-09T17:31:35.384Z - info: Using extension version-control
+2018-07-09T17:31:35.401Z - info: Using extension reports
+2018-07-09T17:31:35.403Z - info: Using extension text
+2018-07-09T17:31:35.403Z - info: Using extension base
+2018-07-09T17:31:35.404Z - info: Using extension studio
+2018-07-09T17:31:35.435Z - info: Using extension licensing
+2018-07-09T17:31:35.448Z - info: Using extension scripts
+2018-07-09T17:31:35.451Z - info: Using extension assets
+2018-07-09T17:31:35.458Z - info: Using extension scheduling
+2018-07-09T17:31:35.486Z - info: Using extension xlsx
+2018-07-09T17:31:35.504Z - info: Using extension sample-template
+2018-07-09T17:31:35.505Z - info: Using extension resources
+2018-07-09T17:31:35.507Z - info: Using extension public-templates
+2018-07-09T17:31:35.511Z - info: fs store is persisting using fs
+2018-07-09T17:31:35.511Z - info: fs store is synchronizing using fs
+2018-07-09T17:31:35.513Z - info: fs store is loading data
+2018-07-09T17:31:35.541Z - info: fs store is initialized successfully
+2018-07-09T17:31:35.559Z - info: Creating default express app.
+2018-07-09T17:31:35.571Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:31:35.572Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:31:35.585Z - info: Verifying license key free
+2018-07-09T17:31:35.586Z - info: Using free license
+2018-07-09T17:31:35.587Z - info: reporter initialized
+2018-07-09T17:31:35.593Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:31:35.594Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:31:35.939Z - info: Rendering request 1 finished in 346 ms
+2018-07-09T17:32:09.176Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:32:09.177Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:32:09.182Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:32:09.186Z - info: Found 31 extensions
+2018-07-09T17:32:09.454Z - info: Using extension handlebars
+2018-07-09T17:32:09.457Z - info: Using extension import-export
+2018-07-09T17:32:09.590Z - info: Using extension templates
+2018-07-09T17:32:09.593Z - info: Using extension jsrender
+2018-07-09T17:32:09.594Z - info: Using extension freeze
+2018-07-09T17:32:09.595Z - info: Using extension cli
+2018-07-09T17:32:09.595Z - info: Using extension express
+2018-07-09T17:32:09.705Z - info: Using extension debug
+2018-07-09T17:32:09.707Z - info: Using extension tags
+2018-07-09T17:32:09.709Z - info: Using extension data
+2018-07-09T17:32:09.711Z - info: Using extension fs-store
+2018-07-09T17:32:09.911Z - info: Using extension authorization
+2018-07-09T17:32:09.913Z - info: Using extension html-to-xlsx
+2018-07-09T17:32:10.009Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:32:10.009Z - info: Using extension child-templates
+2018-07-09T17:32:10.012Z - info: Using extension browser-client
+2018-07-09T17:32:10.014Z - info: Using extension chrome-pdf
+2018-07-09T17:32:10.017Z - info: Using extension pdf-utils
+2018-07-09T17:32:10.115Z - info: Using extension version-control
+2018-07-09T17:32:10.132Z - info: Using extension reports
+2018-07-09T17:32:10.134Z - info: Using extension text
+2018-07-09T17:32:10.134Z - info: Using extension base
+2018-07-09T17:32:10.135Z - info: Using extension studio
+2018-07-09T17:32:10.165Z - info: Using extension licensing
+2018-07-09T17:32:10.179Z - info: Using extension scripts
+2018-07-09T17:32:10.182Z - info: Using extension assets
+2018-07-09T17:32:10.188Z - info: Using extension scheduling
+2018-07-09T17:32:10.216Z - info: Using extension xlsx
+2018-07-09T17:32:10.235Z - info: Using extension sample-template
+2018-07-09T17:32:10.237Z - info: Using extension resources
+2018-07-09T17:32:10.238Z - info: Using extension public-templates
+2018-07-09T17:32:10.241Z - info: fs store is persisting using fs
+2018-07-09T17:32:10.242Z - info: fs store is synchronizing using fs
+2018-07-09T17:32:10.244Z - info: fs store is loading data
+2018-07-09T17:32:10.272Z - info: fs store is initialized successfully
+2018-07-09T17:32:10.290Z - info: Creating default express app.
+2018-07-09T17:32:10.301Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:32:10.301Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:32:10.315Z - info: Verifying license key free
+2018-07-09T17:32:10.316Z - info: Using free license
+2018-07-09T17:32:10.317Z - info: reporter initialized
+2018-07-09T17:32:10.323Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:32:10.324Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:32:10.683Z - info: Rendering request 1 finished in 360 ms
+2018-07-09T17:32:59.206Z - info: fs store is loading data
+2018-07-09T17:33:04.693Z - info: fs store is loading data
+2018-07-09T17:33:11.222Z - info: Starting rendering request 2 (user: null)
+2018-07-09T17:33:11.223Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:33:11.522Z - info: Rendering request 2 finished in 300 ms
+2018-07-09T17:33:54.901Z - info: Starting rendering request 3 (user: null)
+2018-07-09T17:33:54.902Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:33:55.131Z - info: Rendering request 3 finished in 230 ms
+2018-07-09T17:34:09.870Z - info: Starting rendering request 4 (user: null)
+2018-07-09T17:34:09.870Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:34:10.114Z - info: Rendering request 4 finished in 244 ms
+2018-07-09T17:35:06.797Z - info: Starting rendering request 5 (user: null)
+2018-07-09T17:35:06.797Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:35:07.029Z - info: Rendering request 5 finished in 232 ms
+2018-07-09T17:35:22.499Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:35:22.500Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:35:22.505Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:35:22.508Z - info: Found 31 extensions
+2018-07-09T17:35:22.767Z - info: Using extension handlebars
+2018-07-09T17:35:22.770Z - info: Using extension import-export
+2018-07-09T17:35:22.903Z - info: Using extension templates
+2018-07-09T17:35:22.906Z - info: Using extension jsrender
+2018-07-09T17:35:22.906Z - info: Using extension freeze
+2018-07-09T17:35:22.908Z - info: Using extension cli
+2018-07-09T17:35:22.908Z - info: Using extension express
+2018-07-09T17:35:23.015Z - info: Using extension debug
+2018-07-09T17:35:23.016Z - info: Using extension tags
+2018-07-09T17:35:23.019Z - info: Using extension data
+2018-07-09T17:35:23.021Z - info: Using extension fs-store
+2018-07-09T17:35:23.220Z - info: Using extension authorization
+2018-07-09T17:35:23.221Z - info: Using extension html-to-xlsx
+2018-07-09T17:35:23.319Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:35:23.319Z - info: Using extension child-templates
+2018-07-09T17:35:23.321Z - info: Using extension browser-client
+2018-07-09T17:35:23.323Z - info: Using extension chrome-pdf
+2018-07-09T17:35:23.326Z - info: Using extension pdf-utils
+2018-07-09T17:35:23.421Z - info: Using extension version-control
+2018-07-09T17:35:23.440Z - info: Using extension reports
+2018-07-09T17:35:23.441Z - info: Using extension text
+2018-07-09T17:35:23.442Z - info: Using extension base
+2018-07-09T17:35:23.442Z - info: Using extension studio
+2018-07-09T17:35:23.469Z - info: Using extension licensing
+2018-07-09T17:35:23.485Z - info: Using extension scripts
+2018-07-09T17:35:23.488Z - info: Using extension assets
+2018-07-09T17:35:23.494Z - info: Using extension scheduling
+2018-07-09T17:35:23.520Z - info: Using extension xlsx
+2018-07-09T17:35:23.541Z - info: Using extension sample-template
+2018-07-09T17:35:23.542Z - info: Using extension resources
+2018-07-09T17:35:23.543Z - info: Using extension public-templates
+2018-07-09T17:35:23.546Z - info: fs store is persisting using fs
+2018-07-09T17:35:23.546Z - info: fs store is synchronizing using fs
+2018-07-09T17:35:23.548Z - info: fs store is loading data
+2018-07-09T17:35:23.574Z - info: fs store is initialized successfully
+2018-07-09T17:35:23.591Z - info: Creating default express app.
+2018-07-09T17:35:23.602Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:35:23.602Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:35:23.614Z - info: Verifying license key free
+2018-07-09T17:35:23.615Z - info: Using free license
+2018-07-09T17:35:23.615Z - info: reporter initialized
+2018-07-09T17:35:23.622Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:35:23.623Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:35:23.961Z - info: Rendering request 1 finished in 339 ms
+2018-07-09T17:35:36.656Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:35:36.657Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:35:36.663Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:35:36.666Z - info: Found 31 extensions
+2018-07-09T17:35:36.932Z - info: Using extension handlebars
+2018-07-09T17:35:36.935Z - info: Using extension import-export
+2018-07-09T17:35:37.069Z - info: Using extension templates
+2018-07-09T17:35:37.071Z - info: Using extension jsrender
+2018-07-09T17:35:37.072Z - info: Using extension freeze
+2018-07-09T17:35:37.073Z - info: Using extension cli
+2018-07-09T17:35:37.073Z - info: Using extension express
+2018-07-09T17:35:37.181Z - info: Using extension debug
+2018-07-09T17:35:37.182Z - info: Using extension tags
+2018-07-09T17:35:37.185Z - info: Using extension data
+2018-07-09T17:35:37.186Z - info: Using extension fs-store
+2018-07-09T17:35:37.389Z - info: Using extension authorization
+2018-07-09T17:35:37.391Z - info: Using extension html-to-xlsx
+2018-07-09T17:35:37.494Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:35:37.494Z - info: Using extension child-templates
+2018-07-09T17:35:37.495Z - info: Using extension browser-client
+2018-07-09T17:35:37.497Z - info: Using extension chrome-pdf
+2018-07-09T17:35:37.500Z - info: Using extension pdf-utils
+2018-07-09T17:35:37.600Z - info: Using extension version-control
+2018-07-09T17:35:37.619Z - info: Using extension reports
+2018-07-09T17:35:37.621Z - info: Using extension text
+2018-07-09T17:35:37.621Z - info: Using extension base
+2018-07-09T17:35:37.622Z - info: Using extension studio
+2018-07-09T17:35:37.651Z - info: Using extension licensing
+2018-07-09T17:35:37.665Z - info: Using extension scripts
+2018-07-09T17:35:37.668Z - info: Using extension assets
+2018-07-09T17:35:37.674Z - info: Using extension scheduling
+2018-07-09T17:35:37.703Z - info: Using extension xlsx
+2018-07-09T17:35:37.722Z - info: Using extension sample-template
+2018-07-09T17:35:37.723Z - info: Using extension resources
+2018-07-09T17:35:37.724Z - info: Using extension public-templates
+2018-07-09T17:35:37.728Z - info: fs store is persisting using fs
+2018-07-09T17:35:37.729Z - info: fs store is synchronizing using fs
+2018-07-09T17:35:37.730Z - info: fs store is loading data
+2018-07-09T17:35:37.758Z - info: fs store is initialized successfully
+2018-07-09T17:35:37.777Z - info: Creating default express app.
+2018-07-09T17:35:37.789Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:35:37.789Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:35:37.803Z - info: Verifying license key free
+2018-07-09T17:35:37.804Z - info: Using free license
+2018-07-09T17:35:37.805Z - info: reporter initialized
+2018-07-09T17:35:37.811Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:35:37.812Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:35:38.159Z - info: Rendering request 1 finished in 348 ms
+2018-07-09T17:36:14.441Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:36:14.442Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:36:14.447Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:36:14.450Z - info: Found 31 extensions
+2018-07-09T17:36:14.710Z - info: Using extension handlebars
+2018-07-09T17:36:14.713Z - info: Using extension import-export
+2018-07-09T17:36:14.843Z - info: Using extension templates
+2018-07-09T17:36:14.846Z - info: Using extension jsrender
+2018-07-09T17:36:14.846Z - info: Using extension freeze
+2018-07-09T17:36:14.847Z - info: Using extension cli
+2018-07-09T17:36:14.848Z - info: Using extension express
+2018-07-09T17:36:14.955Z - info: Using extension debug
+2018-07-09T17:36:14.956Z - info: Using extension tags
+2018-07-09T17:36:14.958Z - info: Using extension data
+2018-07-09T17:36:14.960Z - info: Using extension fs-store
+2018-07-09T17:36:15.156Z - info: Using extension authorization
+2018-07-09T17:36:15.157Z - info: Using extension html-to-xlsx
+2018-07-09T17:36:15.255Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:36:15.256Z - info: Using extension child-templates
+2018-07-09T17:36:15.259Z - info: Using extension browser-client
+2018-07-09T17:36:15.260Z - info: Using extension chrome-pdf
+2018-07-09T17:36:15.264Z - info: Using extension pdf-utils
+2018-07-09T17:36:15.365Z - info: Using extension version-control
+2018-07-09T17:36:15.384Z - info: Using extension reports
+2018-07-09T17:36:15.385Z - info: Using extension text
+2018-07-09T17:36:15.386Z - info: Using extension base
+2018-07-09T17:36:15.387Z - info: Using extension studio
+2018-07-09T17:36:15.418Z - info: Using extension licensing
+2018-07-09T17:36:15.432Z - info: Using extension scripts
+2018-07-09T17:36:15.435Z - info: Using extension assets
+2018-07-09T17:36:15.441Z - info: Using extension scheduling
+2018-07-09T17:36:15.468Z - info: Using extension xlsx
+2018-07-09T17:36:15.487Z - info: Using extension sample-template
+2018-07-09T17:36:15.488Z - info: Using extension resources
+2018-07-09T17:36:15.489Z - info: Using extension public-templates
+2018-07-09T17:36:15.494Z - info: fs store is persisting using fs
+2018-07-09T17:36:15.494Z - info: fs store is synchronizing using fs
+2018-07-09T17:36:15.496Z - info: fs store is loading data
+2018-07-09T17:36:15.524Z - info: fs store is initialized successfully
+2018-07-09T17:36:15.543Z - info: Creating default express app.
+2018-07-09T17:36:15.554Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:36:15.554Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:36:15.567Z - info: Verifying license key free
+2018-07-09T17:36:15.569Z - info: Using free license
+2018-07-09T17:36:15.570Z - info: reporter initialized
+2018-07-09T17:36:15.576Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:36:15.577Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:36:15.926Z - info: Rendering request 1 finished in 350 ms
+2018-07-09T17:36:27.386Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:36:27.387Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:36:27.392Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:36:27.395Z - info: Found 31 extensions
+2018-07-09T17:36:27.659Z - info: Using extension handlebars
+2018-07-09T17:36:27.663Z - info: Using extension import-export
+2018-07-09T17:36:27.792Z - info: Using extension templates
+2018-07-09T17:36:27.795Z - info: Using extension jsrender
+2018-07-09T17:36:27.795Z - info: Using extension freeze
+2018-07-09T17:36:27.797Z - info: Using extension cli
+2018-07-09T17:36:27.797Z - info: Using extension express
+2018-07-09T17:36:27.904Z - info: Using extension debug
+2018-07-09T17:36:27.906Z - info: Using extension tags
+2018-07-09T17:36:27.908Z - info: Using extension data
+2018-07-09T17:36:27.910Z - info: Using extension fs-store
+2018-07-09T17:36:28.105Z - info: Using extension authorization
+2018-07-09T17:36:28.106Z - info: Using extension html-to-xlsx
+2018-07-09T17:36:28.201Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:36:28.201Z - info: Using extension child-templates
+2018-07-09T17:36:28.203Z - info: Using extension browser-client
+2018-07-09T17:36:28.204Z - info: Using extension chrome-pdf
+2018-07-09T17:36:28.207Z - info: Using extension pdf-utils
+2018-07-09T17:36:28.299Z - info: Using extension version-control
+2018-07-09T17:36:28.317Z - info: Using extension reports
+2018-07-09T17:36:28.319Z - info: Using extension text
+2018-07-09T17:36:28.319Z - info: Using extension base
+2018-07-09T17:36:28.320Z - info: Using extension studio
+2018-07-09T17:36:28.348Z - info: Using extension licensing
+2018-07-09T17:36:28.360Z - info: Using extension scripts
+2018-07-09T17:36:28.363Z - info: Using extension assets
+2018-07-09T17:36:28.369Z - info: Using extension scheduling
+2018-07-09T17:36:28.395Z - info: Using extension xlsx
+2018-07-09T17:36:28.415Z - info: Using extension sample-template
+2018-07-09T17:36:28.416Z - info: Using extension resources
+2018-07-09T17:36:28.417Z - info: Using extension public-templates
+2018-07-09T17:36:28.421Z - info: fs store is persisting using fs
+2018-07-09T17:36:28.422Z - info: fs store is synchronizing using fs
+2018-07-09T17:36:28.424Z - info: fs store is loading data
+2018-07-09T17:36:28.449Z - info: fs store is initialized successfully
+2018-07-09T17:36:28.467Z - info: Creating default express app.
+2018-07-09T17:36:28.478Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:36:28.478Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:36:28.490Z - info: Verifying license key free
+2018-07-09T17:36:28.490Z - info: Using free license
+2018-07-09T17:36:28.492Z - info: reporter initialized
+2018-07-09T17:36:28.498Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:36:28.499Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:36:28.844Z - info: Rendering request 1 finished in 346 ms
+2018-07-09T17:38:51.207Z - info: fs store is loading data
+2018-07-09T17:39:01.235Z - info: fs store is loading data
+2018-07-09T17:39:11.285Z - info: fs store is loading data
+2018-07-09T17:39:16.899Z - info: fs store is loading data
+2018-07-09T17:39:17.995Z - info: fs store is loading data
+2018-07-09T17:40:04.353Z - info: fs store is loading data
+2018-07-09T17:40:05.644Z - info: fs store is loading data
+2018-07-09T17:40:10.696Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:40:10.697Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:40:10.703Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:40:10.706Z - info: Found 31 extensions
+2018-07-09T17:40:10.968Z - info: Using extension handlebars
+2018-07-09T17:40:10.971Z - info: Using extension import-export
+2018-07-09T17:40:11.103Z - info: Using extension templates
+2018-07-09T17:40:11.106Z - info: Using extension jsrender
+2018-07-09T17:40:11.106Z - info: Using extension freeze
+2018-07-09T17:40:11.107Z - info: Using extension cli
+2018-07-09T17:40:11.108Z - info: Using extension express
+2018-07-09T17:40:11.213Z - info: Using extension debug
+2018-07-09T17:40:11.214Z - info: Using extension tags
+2018-07-09T17:40:11.217Z - info: Using extension data
+2018-07-09T17:40:11.218Z - info: Using extension fs-store
+2018-07-09T17:40:11.419Z - info: Using extension authorization
+2018-07-09T17:40:11.420Z - info: Using extension html-to-xlsx
+2018-07-09T17:40:11.518Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:40:11.518Z - info: Using extension child-templates
+2018-07-09T17:40:11.520Z - info: Using extension browser-client
+2018-07-09T17:40:11.521Z - info: Using extension chrome-pdf
+2018-07-09T17:40:11.525Z - info: Using extension pdf-utils
+2018-07-09T17:40:11.622Z - info: Using extension version-control
+2018-07-09T17:40:11.641Z - info: Using extension reports
+2018-07-09T17:40:11.642Z - info: Using extension text
+2018-07-09T17:40:11.643Z - info: Using extension base
+2018-07-09T17:40:11.644Z - info: Using extension studio
+2018-07-09T17:40:11.673Z - info: Using extension licensing
+2018-07-09T17:40:11.686Z - info: Using extension scripts
+2018-07-09T17:40:11.689Z - info: Using extension assets
+2018-07-09T17:40:11.695Z - info: Using extension scheduling
+2018-07-09T17:40:11.722Z - info: Using extension xlsx
+2018-07-09T17:40:11.741Z - info: Using extension sample-template
+2018-07-09T17:40:11.743Z - info: Using extension resources
+2018-07-09T17:40:11.744Z - info: Using extension public-templates
+2018-07-09T17:40:11.748Z - info: fs store is persisting using fs
+2018-07-09T17:40:11.748Z - info: fs store is synchronizing using fs
+2018-07-09T17:40:11.750Z - info: fs store is loading data
+2018-07-09T17:40:11.777Z - info: fs store is initialized successfully
+2018-07-09T17:40:11.796Z - info: Creating default express app.
+2018-07-09T17:40:11.808Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:40:11.809Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:40:11.823Z - info: Verifying license key free
+2018-07-09T17:40:11.823Z - info: Using free license
+2018-07-09T17:40:11.824Z - info: reporter initialized
+2018-07-09T17:40:11.830Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:40:11.831Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:40:12.170Z - info: Rendering request 1 finished in 339 ms
+2018-07-09T17:51:43.018Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T17:51:43.019Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:51:43.024Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T17:51:43.307Z - info: Found 62 extensions
+2018-07-09T17:51:43.323Z - warn: Filtering out duplicated extension "templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-templates
+2018-07-09T17:51:43.323Z - warn: Filtering out duplicated extension "authentication" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-authentication
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "cli" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-cli
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "debug" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-debug
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "express" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-express
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "freeze" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-freeze
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "handlebars" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-handlebars
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "import-export" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-import-export
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "jsrender" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-jsrender
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "tags" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-tags
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "text" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-text
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "authorization" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-authorization
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "base" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-base
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "browser-client" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-browser-client
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "child-templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-child-templates
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "chrome-pdf" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-chrome-pdf
+2018-07-09T17:51:43.324Z - warn: Filtering out duplicated extension "studio" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-studio
+2018-07-09T17:51:43.332Z - warn: Filtering out duplicated extension "data" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-data
+2018-07-09T17:51:43.332Z - warn: Filtering out duplicated extension "fs-store" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-fs-store
+2018-07-09T17:51:43.332Z - warn: Filtering out duplicated extension "html-to-xlsx" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-html-to-xlsx
+2018-07-09T17:51:43.332Z - warn: Filtering out duplicated extension "version-control" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-version-control
+2018-07-09T17:51:43.332Z - warn: Filtering out duplicated extension "licensing" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-licensing
+2018-07-09T17:51:43.332Z - warn: Filtering out duplicated extension "pdf-utils" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-pdf-utils
+2018-07-09T17:51:43.332Z - warn: Filtering out duplicated extension "reports" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-reports
+2018-07-09T17:51:43.332Z - warn: Filtering out duplicated extension "assets" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-assets
+2018-07-09T17:51:43.332Z - warn: Filtering out duplicated extension "scripts" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-scripts
+2018-07-09T17:51:43.333Z - warn: Filtering out duplicated extension "scheduling" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-scheduling
+2018-07-09T17:51:43.333Z - warn: Filtering out duplicated extension "xlsx" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-xlsx
+2018-07-09T17:51:43.333Z - warn: Filtering out duplicated extension "sample-template" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-sample-template
+2018-07-09T17:51:43.333Z - warn: Filtering out duplicated extension "resources" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-resources
+2018-07-09T17:51:43.333Z - warn: Filtering out duplicated extension "public-templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-public-templates
+2018-07-09T17:51:43.593Z - info: Using extension templates
+2018-07-09T17:51:43.599Z - info: Using extension debug
+2018-07-09T17:51:43.600Z - info: Using extension express
+2018-07-09T17:51:43.731Z - info: Using extension freeze
+2018-07-09T17:51:43.732Z - info: Using extension handlebars
+2018-07-09T17:51:43.733Z - info: Using extension import-export
+2018-07-09T17:51:43.859Z - info: Using extension jsrender
+2018-07-09T17:51:43.860Z - info: Using extension tags
+2018-07-09T17:51:43.863Z - info: Using extension cli
+2018-07-09T17:51:43.863Z - info: Using extension text
+2018-07-09T17:51:43.864Z - info: Using extension base
+2018-07-09T17:51:43.865Z - info: Using extension studio
+2018-07-09T17:51:43.887Z - info: Using extension browser-client
+2018-07-09T17:51:43.888Z - info: Using extension authorization
+2018-07-09T17:51:43.890Z - info: Using extension version-control
+2018-07-09T17:51:43.916Z - info: Using extension child-templates
+2018-07-09T17:51:43.921Z - info: Using extension fs-store
+2018-07-09T17:51:44.134Z - info: Using extension chrome-pdf
+2018-07-09T17:51:44.203Z - info: Using extension data
+2018-07-09T17:51:44.205Z - info: Using extension html-to-xlsx
+2018-07-09T17:51:44.406Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T17:51:44.406Z - info: Using extension licensing
+2018-07-09T17:51:44.424Z - info: Using extension pdf-utils
+2018-07-09T17:51:44.521Z - info: Using extension reports
+2018-07-09T17:51:44.523Z - info: Using extension assets
+2018-07-09T17:51:44.531Z - info: Using extension scheduling
+2018-07-09T17:51:44.558Z - info: Using extension xlsx
+2018-07-09T17:51:44.578Z - info: Using extension scripts
+2018-07-09T17:51:44.581Z - info: Using extension sample-template
+2018-07-09T17:51:44.582Z - info: Using extension resources
+2018-07-09T17:51:44.583Z - info: Using extension public-templates
+2018-07-09T17:51:44.587Z - info: fs store is persisting using fs
+2018-07-09T17:51:44.587Z - info: fs store is synchronizing using fs
+2018-07-09T17:51:44.590Z - info: fs store is loading data
+2018-07-09T17:51:44.619Z - info: fs store is initialized successfully
+2018-07-09T17:51:44.637Z - info: Creating default express app.
+2018-07-09T17:51:44.694Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T17:51:44.695Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T17:51:44.709Z - info: Verifying license key free
+2018-07-09T17:51:44.711Z - info: Using free license
+2018-07-09T17:51:44.712Z - info: reporter initialized
+2018-07-09T17:51:44.719Z - info: Starting rendering request 1 (user: null)
+2018-07-09T17:51:44.721Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T17:51:45.152Z - info: Rendering request 1 finished in 433 ms
+2018-07-09T18:57:50.057Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T18:57:50.058Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T18:57:50.064Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T18:57:50.371Z - info: Found 62 extensions
+2018-07-09T18:57:50.385Z - warn: Filtering out duplicated extension "templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-templates
+2018-07-09T18:57:50.385Z - warn: Filtering out duplicated extension "authentication" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-authentication
+2018-07-09T18:57:50.385Z - warn: Filtering out duplicated extension "cli" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-cli
+2018-07-09T18:57:50.385Z - warn: Filtering out duplicated extension "debug" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-debug
+2018-07-09T18:57:50.385Z - warn: Filtering out duplicated extension "express" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-express
+2018-07-09T18:57:50.385Z - warn: Filtering out duplicated extension "freeze" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-freeze
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "handlebars" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-handlebars
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "import-export" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-import-export
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "jsrender" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-jsrender
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "tags" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-tags
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "text" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-text
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "authorization" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-authorization
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "base" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-base
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "browser-client" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-browser-client
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "child-templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-child-templates
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "chrome-pdf" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-chrome-pdf
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "studio" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-studio
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "data" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-data
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "fs-store" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-fs-store
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "html-to-xlsx" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-html-to-xlsx
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "version-control" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-version-control
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "licensing" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-licensing
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "pdf-utils" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-pdf-utils
+2018-07-09T18:57:50.386Z - warn: Filtering out duplicated extension "reports" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-reports
+2018-07-09T18:57:50.387Z - warn: Filtering out duplicated extension "assets" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-assets
+2018-07-09T18:57:50.387Z - warn: Filtering out duplicated extension "scripts" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-scripts
+2018-07-09T18:57:50.387Z - warn: Filtering out duplicated extension "scheduling" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-scheduling
+2018-07-09T18:57:50.387Z - warn: Filtering out duplicated extension "xlsx" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-xlsx
+2018-07-09T18:57:50.387Z - warn: Filtering out duplicated extension "sample-template" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-sample-template
+2018-07-09T18:57:50.387Z - warn: Filtering out duplicated extension "resources" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-resources
+2018-07-09T18:57:50.387Z - warn: Filtering out duplicated extension "public-templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-public-templates
+2018-07-09T18:57:50.631Z - info: Using extension templates
+2018-07-09T18:57:50.636Z - info: Using extension debug
+2018-07-09T18:57:50.637Z - info: Using extension express
+2018-07-09T18:57:50.902Z - info: Using extension freeze
+2018-07-09T18:57:50.903Z - info: Using extension handlebars
+2018-07-09T18:57:50.904Z - info: Using extension import-export
+2018-07-09T18:57:51.033Z - info: Using extension jsrender
+2018-07-09T18:57:51.034Z - info: Using extension tags
+2018-07-09T18:57:51.036Z - info: Using extension cli
+2018-07-09T18:57:51.037Z - info: Using extension text
+2018-07-09T18:57:51.037Z - info: Using extension base
+2018-07-09T18:57:51.038Z - info: Using extension studio
+2018-07-09T18:57:51.061Z - info: Using extension browser-client
+2018-07-09T18:57:51.063Z - info: Using extension authorization
+2018-07-09T18:57:51.064Z - info: Using extension version-control
+2018-07-09T18:57:51.085Z - info: Using extension child-templates
+2018-07-09T18:57:51.091Z - info: Using extension fs-store
+2018-07-09T18:57:51.283Z - info: Using extension chrome-pdf
+2018-07-09T18:57:51.347Z - info: Using extension data
+2018-07-09T18:57:51.348Z - info: Using extension html-to-xlsx
+2018-07-09T18:57:51.551Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T18:57:51.551Z - info: Using extension licensing
+2018-07-09T18:57:51.564Z - info: Using extension pdf-utils
+2018-07-09T18:57:51.658Z - info: Using extension reports
+2018-07-09T18:57:51.659Z - info: Using extension assets
+2018-07-09T18:57:51.666Z - info: Using extension scheduling
+2018-07-09T18:57:51.696Z - info: Using extension xlsx
+2018-07-09T18:57:51.715Z - info: Using extension scripts
+2018-07-09T18:57:51.717Z - info: Using extension sample-template
+2018-07-09T18:57:51.719Z - info: Using extension resources
+2018-07-09T18:57:51.719Z - info: Using extension public-templates
+2018-07-09T18:57:51.724Z - info: fs store is persisting using fs
+2018-07-09T18:57:51.724Z - info: fs store is synchronizing using fs
+2018-07-09T18:57:51.727Z - info: fs store is loading data
+2018-07-09T18:57:51.756Z - info: fs store is initialized successfully
+2018-07-09T18:57:51.771Z - info: Creating default express app.
+2018-07-09T18:57:51.793Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T18:57:51.793Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T18:57:51.806Z - info: Verifying license key free
+2018-07-09T18:57:51.844Z - info: Using free license
+2018-07-09T18:57:51.846Z - info: reporter initialized
+2018-07-09T18:57:51.852Z - info: Starting rendering request 1 (user: null)
+2018-07-09T18:57:51.853Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T18:57:52.282Z - info: Rendering request 1 finished in 430 ms
+2018-07-09T19:16:04.864Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T19:16:04.865Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T19:16:04.871Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T19:16:05.170Z - info: Found 62 extensions
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-templates
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "authentication" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-authentication
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "cli" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-cli
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "debug" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-debug
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "express" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-express
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "freeze" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-freeze
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "handlebars" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-handlebars
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "import-export" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-import-export
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "jsrender" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-jsrender
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "tags" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-tags
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "text" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-text
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "authorization" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-authorization
+2018-07-09T19:16:05.185Z - warn: Filtering out duplicated extension "base" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-base
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "browser-client" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-browser-client
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "child-templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-child-templates
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "chrome-pdf" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-chrome-pdf
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "studio" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-studio
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "data" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-data
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "fs-store" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-fs-store
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "html-to-xlsx" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-html-to-xlsx
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "version-control" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-version-control
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "licensing" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-licensing
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "pdf-utils" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-pdf-utils
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "reports" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-reports
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "assets" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-assets
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "scripts" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-scripts
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "scheduling" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-scheduling
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "xlsx" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-xlsx
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "sample-template" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-sample-template
+2018-07-09T19:16:05.186Z - warn: Filtering out duplicated extension "resources" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-resources
+2018-07-09T19:16:05.187Z - warn: Filtering out duplicated extension "public-templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-public-templates
+2018-07-09T19:16:05.442Z - info: Using extension templates
+2018-07-09T19:16:05.448Z - info: Using extension debug
+2018-07-09T19:16:05.449Z - info: Using extension express
+2018-07-09T19:16:05.579Z - info: Using extension freeze
+2018-07-09T19:16:05.580Z - info: Using extension handlebars
+2018-07-09T19:16:05.581Z - info: Using extension import-export
+2018-07-09T19:16:05.709Z - info: Using extension jsrender
+2018-07-09T19:16:05.710Z - info: Using extension tags
+2018-07-09T19:16:05.713Z - info: Using extension cli
+2018-07-09T19:16:05.713Z - info: Using extension text
+2018-07-09T19:16:05.714Z - info: Using extension base
+2018-07-09T19:16:05.715Z - info: Using extension studio
+2018-07-09T19:16:05.736Z - info: Using extension browser-client
+2018-07-09T19:16:05.738Z - info: Using extension authorization
+2018-07-09T19:16:05.740Z - info: Using extension version-control
+2018-07-09T19:16:05.759Z - info: Using extension child-templates
+2018-07-09T19:16:05.770Z - info: Using extension fs-store
+2018-07-09T19:16:05.957Z - info: Using extension chrome-pdf
+2018-07-09T19:16:06.023Z - info: Using extension data
+2018-07-09T19:16:06.024Z - info: Using extension html-to-xlsx
+2018-07-09T19:16:06.238Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T19:16:06.238Z - info: Using extension licensing
+2018-07-09T19:16:06.256Z - info: Using extension pdf-utils
+2018-07-09T19:16:06.352Z - info: Using extension reports
+2018-07-09T19:16:06.353Z - info: Using extension assets
+2018-07-09T19:16:06.361Z - info: Using extension scheduling
+2018-07-09T19:16:06.388Z - info: Using extension xlsx
+2018-07-09T19:16:06.407Z - info: Using extension scripts
+2018-07-09T19:16:06.410Z - info: Using extension sample-template
+2018-07-09T19:16:06.412Z - info: Using extension resources
+2018-07-09T19:16:06.412Z - info: Using extension public-templates
+2018-07-09T19:16:06.437Z - info: Creating default express app.
+2018-07-09T19:16:06.465Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T19:16:06.467Z - info: Verifying license key free
+2018-07-09T19:16:06.468Z - info: Using free license
+2018-07-09T19:16:06.469Z - info: reporter initialized
+2018-07-09T19:16:06.476Z - info: Starting rendering request 1 (user: null)
+2018-07-09T19:16:06.477Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T19:16:06.938Z - info: Rendering request 1 finished in 463 ms
+2018-07-09T21:39:53.252Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T21:39:53.252Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T21:39:53.258Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T21:39:53.602Z - info: Found 62 extensions
+2018-07-09T21:39:53.772Z - warn: Filtering out duplicated extension "templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-templates
+2018-07-09T21:39:53.772Z - warn: Filtering out duplicated extension "authentication" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-authentication
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "cli" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-cli
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "debug" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-debug
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "express" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-express
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "freeze" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-freeze
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "handlebars" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-handlebars
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "import-export" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-import-export
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "jsrender" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-jsrender
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "tags" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-tags
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "text" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-text
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "authorization" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-authorization
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "base" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-base
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "browser-client" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-browser-client
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "child-templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-child-templates
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "chrome-pdf" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-chrome-pdf
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "studio" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-studio
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "data" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-data
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "fs-store" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-fs-store
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "html-to-xlsx" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-html-to-xlsx
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "version-control" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-version-control
+2018-07-09T21:39:53.773Z - warn: Filtering out duplicated extension "licensing" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-licensing
+2018-07-09T21:39:53.774Z - warn: Filtering out duplicated extension "pdf-utils" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-pdf-utils
+2018-07-09T21:39:53.774Z - warn: Filtering out duplicated extension "reports" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-reports
+2018-07-09T21:39:53.774Z - warn: Filtering out duplicated extension "assets" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-assets
+2018-07-09T21:39:53.774Z - warn: Filtering out duplicated extension "scripts" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-scripts
+2018-07-09T21:39:53.774Z - warn: Filtering out duplicated extension "scheduling" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-scheduling
+2018-07-09T21:39:53.774Z - warn: Filtering out duplicated extension "xlsx" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-xlsx
+2018-07-09T21:39:53.774Z - warn: Filtering out duplicated extension "sample-template" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-sample-template
+2018-07-09T21:39:53.774Z - warn: Filtering out duplicated extension "resources" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-resources
+2018-07-09T21:39:53.774Z - warn: Filtering out duplicated extension "public-templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-public-templates
+2018-07-09T21:39:54.058Z - info: Using extension templates
+2018-07-09T21:39:54.097Z - info: Using extension debug
+2018-07-09T21:39:54.102Z - info: Using extension express
+2018-07-09T21:39:54.437Z - info: Using extension freeze
+2018-07-09T21:39:54.438Z - info: Using extension handlebars
+2018-07-09T21:39:54.440Z - info: Using extension import-export
+2018-07-09T21:39:54.693Z - info: Using extension jsrender
+2018-07-09T21:39:54.694Z - info: Using extension tags
+2018-07-09T21:39:54.703Z - info: Using extension cli
+2018-07-09T21:39:54.704Z - info: Using extension text
+2018-07-09T21:39:54.726Z - info: Using extension base
+2018-07-09T21:39:54.727Z - info: Using extension studio
+2018-07-09T21:39:54.799Z - info: Using extension browser-client
+2018-07-09T21:39:54.801Z - info: Using extension authorization
+2018-07-09T21:39:54.809Z - info: Using extension version-control
+2018-07-09T21:39:54.846Z - info: Using extension child-templates
+2018-07-09T21:39:54.853Z - info: Using extension fs-store
+2018-07-09T21:39:55.420Z - info: Using extension chrome-pdf
+2018-07-09T21:39:56.341Z - info: Using extension data
+2018-07-09T21:39:56.386Z - info: Using extension html-to-xlsx
+2018-07-09T21:39:56.981Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T21:39:56.981Z - info: Using extension licensing
+2018-07-09T21:39:57.048Z - info: Using extension pdf-utils
+2018-07-09T21:39:57.243Z - info: Using extension reports
+2018-07-09T21:39:57.245Z - info: Using extension assets
+2018-07-09T21:39:57.475Z - info: Using extension scheduling
+2018-07-09T21:39:57.597Z - info: Using extension xlsx
+2018-07-09T21:39:57.674Z - info: Using extension scripts
+2018-07-09T21:39:57.679Z - info: Using extension sample-template
+2018-07-09T21:39:57.702Z - info: Using extension resources
+2018-07-09T21:39:57.710Z - info: Using extension public-templates
+2018-07-09T21:39:57.725Z - info: fs store is persisting using fs
+2018-07-09T21:39:57.725Z - info: fs store is synchronizing using fs
+2018-07-09T21:39:57.728Z - info: fs store is loading data
+2018-07-09T21:39:57.803Z - info: fs store is initialized successfully
+2018-07-09T21:39:57.816Z - info: Creating default express app.
+2018-07-09T21:39:57.932Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T21:39:57.932Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T21:39:57.969Z - info: Verifying license key free
+2018-07-09T21:39:57.970Z - info: Using free license
+2018-07-09T21:39:57.971Z - info: reporter initialized
+2018-07-09T21:39:57.977Z - info: Starting rendering request 1 (user: null)
+2018-07-09T21:39:57.978Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T21:40:00.383Z - info: Rendering request 1 finished in 2406 ms
+2018-07-09T21:41:27.320Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-07-09T21:41:27.321Z - info: Searching for available extensions in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T21:41:27.326Z - info: Extensions location cache contains up to date information, skipping crawling in /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app
+2018-07-09T21:41:27.617Z - info: Found 62 extensions
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-templates
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "authentication" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-authentication
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "cli" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-cli
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "debug" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-debug
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "express" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-express
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "freeze" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-freeze
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "handlebars" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-handlebars
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "import-export" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-import-export
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "jsrender" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-jsrender
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "tags" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-tags
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "text" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-text
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "authorization" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-authorization
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "base" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-base
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "browser-client" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-browser-client
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "child-templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-child-templates
+2018-07-09T21:41:27.775Z - warn: Filtering out duplicated extension "chrome-pdf" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-chrome-pdf
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "studio" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-studio
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "data" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-data
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "fs-store" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-fs-store
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "html-to-xlsx" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-html-to-xlsx
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "version-control" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-version-control
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "licensing" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-licensing
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "pdf-utils" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-pdf-utils
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "reports" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-reports
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "assets" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-assets
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "scripts" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-scripts
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "scheduling" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-scheduling
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "xlsx" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/node_modules/jsreport-xlsx
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "sample-template" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-sample-template
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "resources" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-resources
+2018-07-09T21:41:27.776Z - warn: Filtering out duplicated extension "public-templates" from /Volumes/DATA/workspace/jsreport/jsreport-in-electron-app/dist/mac/jsreport-in-electron-app.app/Contents/Resources/app.asar/node_modules/jsreport-public-templates
+2018-07-09T21:41:28.039Z - info: Using extension templates
+2018-07-09T21:41:28.073Z - info: Using extension debug
+2018-07-09T21:41:28.075Z - info: Using extension express
+2018-07-09T21:41:28.452Z - info: Using extension freeze
+2018-07-09T21:41:28.453Z - info: Using extension handlebars
+2018-07-09T21:41:28.455Z - info: Using extension import-export
+2018-07-09T21:41:28.707Z - info: Using extension jsrender
+2018-07-09T21:41:28.708Z - info: Using extension tags
+2018-07-09T21:41:28.711Z - info: Using extension cli
+2018-07-09T21:41:28.711Z - info: Using extension text
+2018-07-09T21:41:28.728Z - info: Using extension base
+2018-07-09T21:41:28.729Z - info: Using extension studio
+2018-07-09T21:41:28.781Z - info: Using extension browser-client
+2018-07-09T21:41:28.783Z - info: Using extension authorization
+2018-07-09T21:41:28.784Z - info: Using extension version-control
+2018-07-09T21:41:28.814Z - info: Using extension child-templates
+2018-07-09T21:41:28.821Z - info: Using extension fs-store
+2018-07-09T21:41:29.279Z - info: Using extension chrome-pdf
+2018-07-09T21:41:30.119Z - info: Using extension data
+2018-07-09T21:41:30.147Z - info: Using extension html-to-xlsx
+2018-07-09T21:41:30.595Z - info: html-to-xlsx detected chrome as available html engine
+2018-07-09T21:41:30.595Z - info: Using extension licensing
+2018-07-09T21:41:30.626Z - info: Using extension pdf-utils
+2018-07-09T21:41:30.741Z - info: Using extension reports
+2018-07-09T21:41:30.743Z - info: Using extension assets
+2018-07-09T21:41:30.903Z - info: Using extension scheduling
+2018-07-09T21:41:31.005Z - info: Using extension xlsx
+2018-07-09T21:41:31.060Z - info: Using extension scripts
+2018-07-09T21:41:31.064Z - info: Using extension sample-template
+2018-07-09T21:41:31.088Z - info: Using extension resources
+2018-07-09T21:41:31.096Z - info: Using extension public-templates
+2018-07-09T21:41:31.110Z - info: fs store is persisting using fs
+2018-07-09T21:41:31.111Z - info: fs store is synchronizing using fs
+2018-07-09T21:41:31.113Z - info: fs store is loading data
+2018-07-09T21:41:31.163Z - info: fs store is initialized successfully
+2018-07-09T21:41:31.176Z - info: Creating default express app.
+2018-07-09T21:41:31.313Z - info: jsreport server successfully started on http port: 5488
+2018-07-09T21:41:31.313Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-07-09T21:41:31.338Z - info: Verifying license key free
+2018-07-09T21:41:31.375Z - info: Using free license
+2018-07-09T21:41:31.376Z - info: reporter initialized
+2018-07-09T21:41:31.383Z - info: Starting rendering request 1 (user: null)
+2018-07-09T21:41:31.384Z - info: Rendering anonymous template { recipe: chrome-pdf, engine: handlebars }
+2018-07-09T21:41:32.074Z - info: Rendering request 1 finished in 691 ms
+2018-07-09T21:43:09.368Z - info: fs store is loading data
+2018-07-09T21:43:19.418Z - info: fs store is loading data
+2018-07-09T21:43:29.537Z - info: fs store is loading data
+2018-07-09T21:43:36.006Z - info: fs store is loading data
+2018-07-09T21:43:39.874Z - info: fs store is loading data
+2018-07-09T21:43:40.919Z - info: fs store is loading data
+2018-07-09T21:43:56.803Z - info: fs store is loading data
+2018-07-09T21:44:00.011Z - info: fs store is loading data
+2018-07-09T21:44:10.061Z - info: fs store is loading data
+2018-07-09T21:44:30.533Z - info: fs store is loading data
+2018-07-09T21:44:40.585Z - info: fs store is loading data
+2018-07-09T21:44:47.591Z - info: fs store is loading data
+2018-07-09T21:44:49.869Z - info: fs store is loading data
+2018-07-09T21:44:59.921Z - info: fs store is loading data
+2018-07-09T21:45:10.021Z - info: fs store is loading data
+2018-07-09T21:45:20.072Z - info: fs store is loading data
+2018-07-09T21:45:22.818Z - info: fs store is loading data
+2018-07-09T21:45:25.401Z - info: fs store is loading data
+2018-07-09T21:45:35.513Z - info: fs store is loading data
+2018-07-09T21:45:54.545Z - info: fs store is loading data
+2018-07-09T21:46:01.372Z - info: fs store is loading data
+2018-07-09T21:46:19.298Z - info: fs store is loading data
+2018-07-09T21:46:39.822Z - info: fs store is loading data
+2018-07-09T21:46:44.228Z - info: fs store is loading data
+2018-07-09T21:46:54.237Z - info: fs store is loading data
+2018-07-09T21:47:04.308Z - info: fs store is loading data
+2018-07-09T21:47:14.339Z - info: fs store is loading data
+2018-07-09T21:47:24.388Z - info: fs store is loading data
+2018-07-09T21:47:34.439Z - info: fs store is loading data
+2018-07-09T21:47:40.539Z - info: fs store is loading data
+2018-07-09T21:47:50.589Z - info: fs store is loading data
+2018-07-09T21:48:00.009Z - info: fs store is loading data
+2018-07-09T21:48:10.059Z - info: fs store is loading data
+2018-07-09T21:48:20.110Z - info: fs store is loading data
+2018-07-09T21:48:30.161Z - info: fs store is loading data
+2018-07-09T21:48:40.212Z - info: fs store is loading data
+2018-07-09T21:48:45.527Z - info: fs store is loading data
+2018-07-09T21:48:55.577Z - info: fs store is loading data
+2018-07-09T21:49:05.627Z - info: fs store is loading data
+2018-07-09T21:49:15.679Z - info: fs store is loading data
+2018-07-09T21:49:25.728Z - info: fs store is loading data
+2018-07-09T21:49:35.778Z - info: fs store is loading data
+2018-07-09T21:49:45.892Z - info: fs store is loading data
+2018-07-09T21:50:00.007Z - info: fs store is loading data
+2018-07-09T21:50:10.060Z - info: fs store is loading data
+2018-07-09T21:50:20.110Z - info: fs store is loading data
+2018-07-09T21:50:30.160Z - info: fs store is loading data
+2018-07-09T21:50:40.211Z - info: fs store is loading data
+2018-07-09T21:50:50.325Z - info: fs store is loading data
+2018-07-09T21:51:10.111Z - info: fs store is loading data
+2018-07-09T21:51:20.161Z - info: fs store is loading data
+2018-07-09T21:51:30.211Z - info: fs store is loading data
+2018-07-09T21:51:40.262Z - info: fs store is loading data
+2018-07-09T21:51:50.389Z - info: fs store is loading data
+2018-07-09T21:52:00.015Z - info: fs store is loading data
+2018-07-09T21:52:10.062Z - info: fs store is loading data
+2018-07-09T21:52:20.111Z - info: fs store is loading data
+2018-07-09T21:52:30.162Z - info: fs store is loading data
+2018-07-09T21:52:40.212Z - info: fs store is loading data
+2018-07-09T21:52:50.263Z - info: fs store is loading data
+2018-07-09T21:52:55.528Z - info: fs store is loading data
+2018-07-09T21:53:05.578Z - info: fs store is loading data
+2018-07-09T21:53:15.628Z - info: fs store is loading data
+2018-07-09T21:53:25.678Z - info: fs store is loading data
+2018-07-09T21:53:35.728Z - info: fs store is loading data
+2018-07-09T21:53:45.779Z - info: fs store is loading data
+2018-07-09T21:53:55.898Z - info: fs store is loading data
+2018-07-09T21:54:20.210Z - info: fs store is loading data
+2018-07-09T21:54:30.280Z - info: fs store is loading data
+2018-07-09T21:54:40.311Z - info: fs store is loading data
+2018-07-09T21:54:50.360Z - info: fs store is loading data
+2018-07-09T21:55:00.077Z - info: fs store is loading data
+2018-07-09T21:55:10.128Z - info: fs store is loading data
+2018-07-09T21:55:20.177Z - info: fs store is loading data
+2018-07-09T21:55:29.715Z - info: fs store is loading data
+2018-07-09T21:55:39.765Z - info: fs store is loading data
+2018-07-09T21:55:49.815Z - info: fs store is loading data
+2018-07-09T21:55:58.271Z - info: fs store is loading data
+2018-07-09T21:56:22.160Z - info: fs store is loading data
+2018-07-09T21:56:32.210Z - info: fs store is loading data
+2018-07-09T21:56:42.260Z - info: fs store is loading data
+2018-07-09T21:56:52.311Z - info: fs store is loading data
+2018-07-09T21:57:02.430Z - info: fs store is loading data
+2018-07-09T21:57:12.461Z - info: fs store is loading data
+2018-07-09T21:57:22.511Z - info: fs store is loading data
+2018-07-09T21:57:32.561Z - info: fs store is loading data
+2018-07-09T21:57:42.611Z - info: fs store is loading data
+2018-07-09T21:57:52.662Z - info: fs store is loading data
+2018-07-09T21:58:00.015Z - info: fs store is loading data
+2018-07-09T21:58:10.133Z - info: fs store is loading data
+2018-07-09T21:58:30.265Z - info: fs store is loading data
+2018-07-09T21:58:40.316Z - info: fs store is loading data
+2018-07-09T21:58:50.365Z - info: fs store is loading data
+2018-07-09T21:59:00.017Z - info: fs store is loading data
+2018-07-09T21:59:10.141Z - info: fs store is loading data
+2018-07-09T21:59:20.166Z - info: fs store is loading data
+2018-07-09T21:59:30.216Z - info: fs store is loading data
+2018-07-09T21:59:40.267Z - info: fs store is loading data
+2018-07-09T21:59:50.317Z - info: fs store is loading data
+2018-07-09T22:00:00.368Z - info: fs store is loading data
+2018-07-09T22:00:10.487Z - info: fs store is loading data
+2018-07-09T22:00:20.519Z - info: fs store is loading data
+2018-07-09T22:00:30.570Z - info: fs store is loading data
+2018-07-09T22:00:40.621Z - info: fs store is loading data
+2018-07-09T22:00:50.671Z - info: fs store is loading data
+2018-07-09T22:01:00.012Z - info: fs store is loading data
+2018-07-09T22:01:10.062Z - info: fs store is loading data
+2018-07-09T22:01:30.621Z - info: fs store is loading data
+2018-07-09T22:01:40.672Z - info: fs store is loading data
+2018-07-09T22:01:50.722Z - info: fs store is loading data
+2018-07-09T22:02:00.772Z - info: fs store is loading data
+2018-07-09T22:02:10.890Z - info: fs store is loading data
+2018-07-09T22:02:31.028Z - info: fs store is loading data
+2018-07-09T22:02:41.079Z - info: fs store is loading data
+2018-07-09T22:02:51.130Z - info: fs store is loading data
+2018-07-09T22:03:01.179Z - info: fs store is loading data
+2018-07-09T22:03:11.256Z - info: fs store is loading data
+2018-07-09T22:03:21.285Z - info: fs store is loading data
+2018-07-09T22:03:31.336Z - info: fs store is loading data
+2018-07-09T22:03:41.386Z - info: fs store is loading data
+2018-07-09T22:03:51.436Z - info: fs store is loading data
+2018-07-09T22:04:01.443Z - info: fs store is loading data
+2018-07-09T22:04:11.560Z - info: fs store is loading data
+2018-07-09T22:04:31.698Z - info: fs store is loading data
+2018-07-09T22:04:41.749Z - info: fs store is loading data
+2018-07-09T22:04:51.799Z - info: fs store is loading data
+2018-07-09T22:05:01.849Z - info: fs store is loading data
+2018-07-09T22:05:11.975Z - info: fs store is loading data
+2018-07-09T22:05:21.999Z - info: fs store is loading data
+2018-07-09T22:05:32.050Z - info: fs store is loading data
+2018-07-09T22:05:42.101Z - info: fs store is loading data
+2018-07-09T22:05:52.151Z - info: fs store is loading data
+2018-07-09T22:06:02.202Z - info: fs store is loading data
+2018-07-09T22:06:12.318Z - info: fs store is loading data
+2018-07-09T22:06:29.238Z - info: fs store is loading data
+2018-07-09T22:06:43.571Z - info: fs store is loading data
+2018-07-09T22:07:11.545Z - info: fs store is loading data

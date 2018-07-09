@@ -1,0 +1,38 @@
+{
+  "name": "jsreport-in-electron-app",
+  "version": "0.0.0",
+  "description": "Usage of jsreport inside an electron app (desktop app)",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjrmatos/jsreport-in-electron-app.git"
+  },
+  "keywords": [],
+  "author": "BJR Matos <bjrmatos@gmail.com> (https://github.com/bjrmatos)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjrmatos/jsreport-in-electron-app/issues"
+  },
+  "homepage": "https://github.com/bjrmatos/jsreport-in-electron-app#readme",
+  "build": {
+    "appId": "com.jsreportinelectron.app",
+    "extraFiles": [
+      "local-assets",
+      "node_modules/puppeteer/.local-chromium/**/*"
+    ]
+  },
+  "dependencies": {
+    "electron-is-dev": "0.3.0",
+    "jsreport": "2.1.1",
+    "webpack": "1.13.1"
+  },
+  "devDependencies": {
+    "electron": "2.0.2",
+    "electron-builder": "20.19.2"
+  }
+}

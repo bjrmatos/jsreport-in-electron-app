@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+app-info.log
+app-error.log
+report.pdf
+dist

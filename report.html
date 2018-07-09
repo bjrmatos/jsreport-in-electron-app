@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <style>
+      table, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src='{#asset ./local-assets/electron-logo.svg @encoding=dataURI}'
+      width='300px'
+    />
+    <span style="font-size: 28px;"><b>&nbsp;&nbsp;+&nbsp;&nbsp;</b></span>
+    <img
+      src='{#asset ./local-assets/jsreport-logo.png @encoding=dataURI}'
+      width='250px'
+      height='120px'
+    />
+    <br />
+    <br />
+    <table>
+      <tr>
+        <td>
+          <b>Name</b>
+        </td>
+        <td>
+          <b>Description</b>
+        </td>
+      </tr>
+      {{#each rows}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{description}}</td>
+      </tr>
+      {{/each}}
+    </table>
+  </body>
+</html>
