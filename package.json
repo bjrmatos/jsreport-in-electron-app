@@ -22,6 +22,7 @@
   "build": {
     "appId": "com.jsreportinelectron.app",
     "extraFiles": [
+      "jsreport.config.json",
       "local-assets",
       "node_modules/puppeteer/.local-chromium/**/*"
     ]
